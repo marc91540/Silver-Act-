@@ -1,0 +1,742 @@
+
+/* ----------------------  MENU  ----------------------*/
+.header{
+	clear: both;
+}
+	.numberCall{
+		background-color: #5b5b5b;
+		font-family: 'Avenir Next' ;
+		font-size: 17px;
+		padding-left: 34%;
+		color: white;
+		padding-top: 10px;
+    	padding-bottom: 10px;
+    	position: relative;
+   		 z-index: 3;
+	}
+		.numberCall a{
+			text-decoration: none;
+    		border-bottom: solid 1px;
+    		color: white;
+		}
+#menu{
+	background-color: white;
+	padding-top: 21px;
+    padding-bottom: 21px;
+    margin-top: 41px;
+    top: 16px;
+    position: relative;
+    display: inline;
+}
+
+#logo{
+	position: absolute;
+    top: 25%;
+    left: 4%;
+    z-index: 2;
+
+}
+.user{
+	 background-color: #3182ab;
+    display: inline-block;
+    float: right;
+    top: -11px;
+    padding: 10px 15px 10px 15px;
+}
+
+.userRes{
+	display: none;
+}
+
+/*-----------------------  MENU INSIDE ----------------*/
+
+#menu > nav{
+	display: inline-block;
+    margin-left: 281px;
+}
+
+nav > ul {
+  	display: flex;
+}
+
+nav > ul > li  {
+  	border-right: 1px solid;
+  	padding:5px 40px 5px 40px;
+  	font-family: 'Avenir Next' ;
+  	font-size:17px;
+  	font-weight: bold;
+}
+
+.barre{
+	border-right:none;
+}
+
+nav > ul > li > a {
+  	text-decoration: none;
+  	color: #5b5b5b;
+}
+nav > ul > li > a:hover {
+  	color: #3182ab;
+}
+
+[type="checkbox"], label {
+	  display: none;
+}
+
+.hoverMenu{
+    width: 16%;
+ }
+ 	.hoverMenu a{
+		text-decoration: none;
+		color: #5b5b5b;
+		font-family: "avenir next";
+    	display: inline-block;
+ 	}
+ 	.marginMenu{
+		margin-top:20px;
+ 	}
+ 	.marginBott{
+ 		margin-bottom: 10px;
+ 	}
+ 	.rechercheAct{
+ 		margin-top: 13px;
+ 	}
+ 	.hoverMenu a:hover{
+ 		color: #3182ab;
+ 	}
+ 	.respons:hover ul.hoverMenu{
+ 		display: block;
+ 	}
+ 	
+
+
+ #menu ul li ul {
+ display:none;
+ }
+ #menu ul li:hover ul {
+ display:block;
+ z-index: 2;
+ top: 44px;
+ right: 46%;
+ text-align:center;
+ background-color: white;
+ font-size: 14px;
+ font-weight: 500;
+
+ }
+
+ #menu li ul {
+ position:absolute;
+ }
+#menu ul{
+	z-index: 3;
+}
+/*-----------------------  MENU burger ----------------*/
+label:after{
+  content:'';
+  display: block;
+  width: 30px;
+  height: 5px;
+  background:  #777;
+  margin: 7px 5px;
+  box-shadow: 0px 10px 0px #777, 0px 20px 0px #777
+}
+
+	[type="checkbox"]:checked ~ ul {
+  		display: block;
+  		z-index: 9999;
+  		position: absolute;
+		  right: 20px;
+		  left: 20px;
+	}
+
+	/*nav a {
+		  color: #777;
+	}
+
+	nav ul li {
+		  display: block;
+  		float: none;
+  		width: 100%;
+  		text-align: left;
+  		background: #222;
+		  text-indent: 20px;
+	}
+
+	nav > ul > li {
+  		margin-left: 0px;
+	}
+
+	nav > ul li ul li {
+  		display: block;
+		  float: none;
+	}
+  
+	nav > ul li ul {
+		  display: block;
+  		position: relative;
+  		width: 100%;
+		  z-index: 9999;
+		  float: none;
+	}
+*/
+
+
+/* -----------------------MAIN-----------------------*/
+.main{
+	clear: both;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 720px;
+}
+
+.img1 img{
+	left: 0%;
+    width: 100%;
+}
+	
+
+/* --------------------CERCLE ACTIVITY------------------*/
+
+.cercleActivity{
+	width: 100%;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+	#cercle{
+		height: 370px;
+    	width: 30s%;
+    	border-radius: 50%;
+	}
+	.orange{
+	    background-color: #df9454;
+	    margin-right: 3%;
+    	margin-left: 2%;
+	}
+		.imgActivity{
+			margin-left: 40%;
+    		width: 16%;
+    		margin-top: 8%;
+		}
+		 .category{
+		 	margin-top: 2%;
+			font-family: "avenir";
+		    font-weight: bold;
+		    color: white;
+		    font-size: 34px;
+		    letter-spacing: 2px;
+		  	font-style: italic;
+		    margin-bottom: 7%;
+		    text-align: center;
+		}
+		.violet .imgActivity{
+			margin-top: 10%;
+    		width: 19%;
+
+		}
+		.violet .category{
+			margin-top: 6%;
+		}
+		.yellow .category{
+			margin-top: 6%;
+		}
+		.yellow .imgActivity{
+			 width: 20%;
+		}
+		.resume{
+			font-size: 20px;
+			font-family: "avenir";
+			text-align: center;
+		    width: 75%;
+		    margin-left: 11%;
+		    color: white;
+		    font-weight: 300;
+		    margin-bottom: 12%;
+
+		}
+		.button{
+			font-weight: bold;
+    		font-size: 17px;
+			text-decoration: none;
+		    color: white;
+		    font-family: "avenir";
+		    border: solid 2px;
+		    margin-left: 32%;
+		    padding-left: 30px;
+		    padding-right: 30px;
+		    padding-top: 5px;
+		    padding-bottom: 5px;
+		    border-radius: 20px;
+		}
+			.button:hover{
+				background-color: white;
+				color:#df9454;
+				border-color: white;
+				transition: all 0.7s ease;
+			}
+			#hoverColor2:hover{
+				background-color: white;
+				color:#9f71aa;
+				border-color: white;
+			}
+			#hoverColor3:hover{
+				background-color: white;
+				color:#ecc54f;
+				border-color: white;
+
+			}
+
+	.violet{
+	    background-color: #9f71aa;
+	    margin-right: 3%;
+	}
+	.yellow{
+	    background-color: #ecc54f;
+	}
+
+
+/* --------------------Map------------------*/
+
+.img2 .map1{
+	width: 100%;
+	display: block;
+}
+.img2 .map2{
+	width: 100%;
+	display: none;
+}
+
+
+/* --------------------En quelques mots------------------*/
+.violetWidth{
+		width: 90%;
+    	margin-left: 5%;
+    	padding-top: 40px;
+    	padding-bottom: 40px;
+	}
+	.violet1block {
+    display: inline-block;
+    color: white;
+    width: 33%;
+
+	}
+		.typeSilver {
+	    	font-size: 60px;
+	    	padding-bottom: 10px;
+	    	font-family: "Playfair Display";
+		}
+		.typeAct{
+			font-family: "Lemon Tuesday";
+		}
+		.fewWords {
+	    font-size: 35px;
+	    padding-bottom: 50px;
+	    margin-left: 11%;
+	    font-family: "avenir next";
+		}
+	.violet2block {
+    	float: right;
+    	width: 57%;
+    	display: inline-block;
+    	color:white;
+    	font-family: "avenir next";
+    	margin-top: 10px;
+	}
+		.blockText2 {
+    	font-size: 24px;
+    	text-align: center;
+		}
+	/* --------------------Citation Violet------------------*/
+
+.violetCitation{
+	background-color: #9f71aa;
+}
+	.papa{
+		width: 80%;
+    	margin-left: 10%;
+	}
+
+#citationBase{
+	font-family: "avenir Next";
+	font-size: 40px;
+	color: white;
+	font-weight: bold;
+}
+.citation1{
+	padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 15%;
+}
+	.citation1 span{
+		padding-left: 404px;
+	}
+
+/* --------------------silverbox------------------*/
+
+.blockImg{
+	display: inline-block;
+	width: 50%;
+}
+	.img4{
+		width: 100%;
+	}
+
+.silverBoxBlock{
+	display: inline-block;
+    float: right;
+    width: 34%;
+    padding-top: 60px;
+  	margin-right: 10%;
+
+}
+	#colorType{
+		color:#0087af;
+	}
+	.textSiverBox{
+		font-family: "avenir next";
+		font-size: 24px;
+		padding-top: 50px;
+    	padding-bottom: 50px;
+	}
+		.textSilver{
+			font-family: "Playfair Display";
+			color:#0087af;
+		}
+		.textAct{
+			font-family: "Lemon Tuesday";
+			color:#0087af;
+		}
+		.buttonBox{
+			text-decoration: none;
+			float: right;
+		}
+			.savoirPlus{
+				border: solid 1px;
+			    display: inline-block;
+			    background-color: #0087af;
+			    color: white;
+			    font-family: "avenir next";
+			    font-size: 24px;
+			    padding: 15px 30px 15px 30px;
+			    border-radius: 30px; 
+			}
+			.savoirPlus:hover{
+				background-color: transparent;
+				color: #0087af;
+			}
+			.savoirPlus:hover{
+				transition: all 0.7s ease;
+				color: #0087af;
+				
+			}
+
+
+
+/* --------------------video------------------*/
+
+
+
+
+
+.video-wrapper {
+    position: relative;
+}
+
+.video-wrapper > video {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.video-wrapper > video.has-media-controls-hidden::-webkit-media-controls {
+    display: none;
+}
+
+.video-overlay-play-button {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    padding: 10px calc(50% - 50px);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    opacity: 0.95;
+    cursor: pointer;
+    border: 1px solid white;
+    -webkit-transition: opacity 150ms;
+    transition: opacity 150ms;
+}
+
+.video-overlay-play-button:hover {
+    opacity: 1;
+}
+
+.video-overlay-play-button.is-hidden {
+    display: none;
+}
+
+/* --------------------User avis------------------*/
+
+.avis{
+	width: 90%;
+	margin-left: 5%;
+	padding-top: 42px;
+    padding-bottom: 42px;
+    display: inline-block
+}
+
+.avis img{
+	width: 25%;
+    display: inline-block;
+}
+
+.text{
+	margin-top: 2%;
+    display: inline-block;
+    width: 70%;
+    float: right;
+
+}
+.citation2{
+	margin-right: 40px;
+	width: 90%;
+	font-family: "avenir Next";
+	font-weight: bold;
+	font-size: 30px;
+	color:#df9454;
+
+}
+	.citation2 span{
+		padding-left: 404px;
+	}
+.author{
+	font-family: "avenir Next";
+	color:#df9454;
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    position: relative;
+    left: 32%;
+    width: 55%;
+
+
+}
+#buttonBoxBis{
+	text-decoration: none;
+    float: right;
+    width: 50%;
+}
+#colorButton{
+	background-color: #df9454;;
+}
+#colorButton:hover{
+	color: #df9454;
+	background-color: white;
+}
+
+
+/* --------------------Newsletter------------------*/
+
+.newsletter{
+	background-color: #3783a8;}
+.subscribe {
+    width: 500px;
+    display: inline-block;
+    margin-left: 30%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+.subscribe__wrapper {
+  position: relative;
+  height: 50px;
+}
+
+svg {
+  width: 30px;
+  height: 100%;
+  position: absolute;
+  right: 15px;
+  top: 0;
+  -webkit-transition: width 0.25s ease, -webkit-transform 0.25s ease;
+  transition: width 0.25s ease, -webkit-transform 0.25s ease;
+  transition: transform 0.25s ease, width 0.25s ease;
+  transition: transform 0.25s ease, width 0.25s ease, -webkit-transform 0.25s ease;
+}
+
+.subscribe .h4 {
+	text-align: center;
+  	font-family: "avenir Next";
+  	color:white;
+  	font-size: 28px;
+  	margin-bottom: 0.5em;
+  	font-weight: bold;
+	}
+
+input[type="text"] {
+  width: 88%;
+  height: 60px;
+  float: left;
+  border: 0;
+  outline: none;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 1.25em;
+}
+
+button {
+  position: absolute;
+  right: 0;
+  width: 12%;
+  height: 62px;
+  border: 0;
+  background: #50bade;
+  cursor: pointer;
+  outline: none;
+  -webkit-transition: width 0.1s ease;
+  transition: width 0.1s ease;
+}
+button .send {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 16px;
+  color: #fff;
+  opacity: 0;
+  -webkit-transition: opacity 0.25s ease;
+  transition: opacity 0.25s ease;
+}
+button:hover {
+  width: 26%;
+}
+button:hover .send {
+  opacity: 1;
+}
+button:hover .divider {
+  -webkit-animation: divider 0.15s 0.2s linear forwards;
+          animation: divider 0.15s 0.2s linear forwards;
+}
+button:hover svg {
+  width: 23px;
+  -webkit-transform: rotate(-18deg) translateX(10px) translateY(3px);
+          transform: rotate(-18deg) translateX(10px) translateY(3px);
+  z-index: 10;
+}
+
+.divider {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  z-index: 50;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 10px;
+  height: 0;
+  background: #50bade;
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+@-webkit-keyframes divider {
+  to {
+    height: 60%;
+  }
+}
+
+@keyframes divider {
+  to {
+    height: 60%;
+  }
+}
+#p2 {
+  opacity: 0;
+}
+
+.more-concepts {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  text-decoration: none;
+  color: #fff;
+}
+.more-concepts:hover {
+  text-decoration: underline;
+}
+
+/* --------------------footer------------------*/
+
+.footer{
+	background-color: #616264;
+    clear: both;
+}
+	.footerEnd{
+		width: 90%;
+    	margin-left: 5%;
+    	padding-top: 20px;
+    	padding-bottom: 20px;
+	}
+		.blog{
+			display: inline-block;
+    		text-decoration: none;
+    		color: white;
+    		border-bottom: 1px solid;
+    		font-family: "avenir Next";
+    		font-size: 15px;
+    		padding-top: 1%;
+    		float: left;
+		}
+			.display{
+				    display: inline-block;
+				    margin-right: 20px;
+			}
+				.footerSilver{
+					font-size: 25px;
+					font-family: "avenir Next";
+					color: white;
+					padding-bottom: 10px;
+				}
+				.tel{
+					font-size: 15px;
+					font-family: "avenir Next";
+					color: white;
+				}
+				.social{
+					display: inline-block;
+				}
+		.blockFooter{
+			display: inline-block;
+			margin-left: 36%;
+
+		}
+
+		.blockRight{
+			display: inline-block;
+			font-size: 15px;
+			float: right;
+			margin-top: 4px;
+		}
+			.legales{
+				display: block;
+			    text-decoration: none;
+			    border-bottom: 1px solid;
+			    color: white;
+			    font-family: "avenir Next";
+			}
+				#margin2{
+					display: inline-block;
+					padding-top: 10px;
+				}
+
+ul.cbttopshare li {float:left;list-style: none outside none;border:none;} ul.cbttopshare li a{background-color:white;background-image:url(http://4.bp.blogspot.com/-Pe-J5S7YCa0/UdXsJoN7GLI/AAAAAAAAL68/ongZAtcNF1E/s1600/spice-social-gadget-sprite.png);background-repeat:no-repeat;background-size:auto 96px;border:0 none;color:white;direction:ltr;display:block; height:32px;overflow:hidden;text-align:left;text-decoration:none;text-indent:-999em;transition:all 0.2s ease 0s;width:32px} .ie7 ul.cbttopshare li a, .ie8 ul.cbttopshare li a{background-image:url(http://4.bp.blogspot.com/-Pe-J5S7YCa0/UdXsJoN7GLI/AAAAAAAAL68/ongZAtcNF1E/s1600/spice-social-gadget-sprite.png)} ul.cbttopshare li.facebook a{ background-position:0 0} ul.cbttopshare li.flickr a{ background-position:-32px 0} ul.cbttopshare li.dribbble a{ background-position:-64px 0} ul.cbttopshare li.googleplus a{ background-position:-96px 0} ul.cbttopshare li.linkedin a{ background-position:-128px 0} ul.cbttopshare li.pinterest a{ background-position:-160px 0} ul.cbttopshare li.rss a{ background-position:-192px 0} ul.cbttopshare li.skype a{ background-position:-224px 0} ul.cbttopshare li.twitter a{ background-position:-256px 0} ul.cbttopshare li.vimeo a{ background-position:-288px 0} ul.cbttopshare li.youtube a{ background-position:-320px 0} ul.cbttopshare li.facebook a:hover, #sidebar ul.cbttopshare li.facebook a:hover{ background-position:0 -32px} ul.cbttopshare li.flickr a:hover, #sidebar ul.cbttopshare li.flickr a:hover{ background-position:-32px -32px} ul.cbttopshare li.dribbble a:hover, #sidebar ul.cbttopshare li.dribbble a:hover{ background-position:-64px -32px} ul.cbttopshare li.googleplus a:hover, #sidebar ul.cbttopshare li.googleplus a:hover{ background-position:-96px -32px} ul.cbttopshare li.linkedin a:hover, #sidebar ul.cbttopshare li.linkedin a:hover{ background-position:-128px -32px} ul.cbttopshare li.pinterest a:hover, #sidebar ul.cbttopshare li.pinterest a:hover{ background-position:-160px -32px} ul.cbttopshare li.rss a:hover, #sidebar ul.cbttopshare li.rss a:hover{ background-position:-192px -32px} ul.cbttopshare li.skype a:hover, #sidebar ul.cbttopshare li.skype a:hover{ background-position:-224px -32px} ul.cbttopshare li.twitter a:hover, #sidebar ul.cbttopshare li.twitter a:hover{ background-position:-256px -32px} ul.cbttopshare li.vimeo a:hover, #sidebar ul.cbttopshare li.vimeo a:hover{ background-position:-288px -32px} ul.cbttopshare li.youtube a:hover, #sidebar ul.cbttopshare li.youtube a:hover{ background-position:-320px -32px} blockquote { -moz-border-bottom-colors: none; -moz-border-left-colors: none; -moz-border-right-colors: none; -moz-border-top-colors: none; background: none repeat scroll 0 0 #FBFBFB; border-color: #DDDDDD #DDDDDD -moz-use-text-color; border-image: none; border-style: solid; border-width: 1px 1px 2px; padding: 5px; clear: both; }
+
+
+
+
+
+
+

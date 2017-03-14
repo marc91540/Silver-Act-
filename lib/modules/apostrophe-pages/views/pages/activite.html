@@ -1,0 +1,129 @@
+
+<!-- title       : Silver Act'-->
+<!-- description : Website Silver Act  -->
+<!-- author      : Team 3  Silver Act  -->
+<!-- date        : 13/02/2017 -->
+<!-- notes       :  Only working on search engine-->
+<!-- ================================================= -->
+
+{% extends data.outerLayout %}
+
+{% block main %}
+
+	<section class="header">
+		<p class="numberCall">pour plus d’infos, nous contacter au <a href="#">00 00 00 00 00</a></p>
+		<div id="menu">	
+			<img src ="modules/my-apostrophe-assets/images/img/logo.png" id="logo">
+			<nav>
+		        <input type="checkbox" id="nav" /><label id="label" for="nav"></label>
+		        <ul >
+					<li class="respons"><a href="/">ACCUEIL</a>
+		            <li class="respons"><a href="#">ACTIVITÉ</a>
+		            	<ul class="hoverMenu">
+		            	    <li><a class="rechercheAct" href="recherche-activite4">Rechercher une activité</a></li>
+		            		<li class="marginMenu"><a href="#">Restez en forme</a></li>
+		            		<li><a class="rechercheAct" href="#">Culturellement votre</a></li>
+		            		<li class="marginBott"><a class="rechercheAct" href="#">Ateliers</a></li>
+		            	</ul>
+		            </li>
+		            <li class="respons"><a href="#">COFFRETS</a></li>
+		            <li class="respons"><a href="#">ANIMATEURS</a></li>
+		            <li class="barre"><a href="#">CONCEPT</a></li>
+		        </ul>
+		    </nav>
+		    <div class="user">
+		    	<a  href="#"><img src ="modules/my-apostrophe-assets/images/img/objet1.png" id="imgUser"></a>
+		    </div>
+		    <a class="userRes" href="#"><img src ="modules/my-apostrophe-assets/images/img/user2.png"></a>	
+		</div>
+	</section>
+
+
+   	<section class="act1">
+   		<div id="float1"  class="block1">
+	    	<h2 class="titleActivite">Yoga</h2>
+	    	<p class ="textActivity">Pratiqué régulièrement et associé à la respiration, il permet à chacun de : se détendre, fortifier son corps, résister au stress, gagner en concentration et en confiance en soi. C’est pourquoi Silver Act’ vous propose une activité yoga encadré par un professionel.</p>
+	    	<div class="btn-bg bg-2">
+    			<div class="btn btn-2">
+      				<button href="#">Je réserve</button>
+    			</div>
+  			</div>
+	    </div>
+	    <div class="imgPosition1">
+   			<img  class="imgAct" src ="modules/my-apostrophe-assets/images/img/img22.png">
+   			<img  class="imgActResp" src ="modules/my-apostrophe-assets/images/img/vieux.png">
+   		</div>	
+   	</section> 
+
+
+
+
+
+    <section class="act2">
+   		<div id="float2" class="block1">
+       		<h2 class="titleActivite">TAÏ CHI</h2>
+       		<p class="textActivity">Dérivé des arts martiaux, le tai-chi est une discipline corporelle d’origine chinoise comportant un ensemble de mouvements continus et circulaires. Il met aussi l’accent sur la maîtrise de la respiration.</p>
+       		<div class="btn-bg bg-2">
+    			<div class="btn btn-2">
+      				<button class="f2" href="#">Je réserve</button>
+    			</div>
+  			</div>
+       </div>
+       <div class="imgPosition2">
+       		<img class="imgAct" src ="modules/my-apostrophe-assets/images/img/taichi.png">
+       		<img  class="imgActResp" src ="modules/my-apostrophe-assets/images/img/taichi3.png">
+       </div>	
+   	</section>
+
+
+
+    <section class="act3">
+   		<div id="float3" class="block1">
+	        <h2 class="titleActivite">GYM</h2>
+	        <p class ="textActivity">Une gym douce, c'est réaliser des exercices bons pour la santé, non agressifs pour les articulations, pour la colonne vertébrale, pour les épaules avec une sollicitation cardio-vasculaire modérée. Les gyms douces sont bénéfiques pour les personnes âgées.</p>
+	        <div class="btn-bg bg-2">
+    			<div class="btn btn-2">
+      				<button href="#">Je réserve</button>
+    			</div>
+  			</div>
+	     </div>	
+	     <div class="imgPosition3">
+	     	<img class="imgAct" src ="modules/my-apostrophe-assets/images/img/yoga.png">
+	     	<img  class="imgActResp" src ="modules/my-apostrophe-assets/images/img/yoga3.png">	
+	     </div>
+   	</section> 
+
+
+	<section class="footer">
+		<div class="footerEnd">
+			<a href="#" class="blog">Blog</a>
+			<div class="blockFooter">
+				<div class="display">
+					<p class="footerSilver">Silver Act</p>
+					<p class="tel">07 82 82 41 68</p>
+				</div>
+					<div class="social">
+						<ul class='cbttopshare'> 
+							<li class='facebook'> 
+								<a href='http://www.facebook.com/' rel='nofollow' target='_blank' title='facebook'></a>
+							</li> 
+							<li class='googleplus'> 
+								<a href='https://plus.google.com/' rel='nofollow' target='_blank' title='googleplus'></a>
+							</li>
+							<li class='twitter'> 
+								<a href='http://twitter.com/' rel='nofollow' target='_blank' title='twitter'></a>
+							</li>  
+						</ul>
+					</div>
+			</div>
+			<div class="blockRight">
+				<a href="#" id="margin" class="legales">Mentions légales</a>
+				<a href="#" id="margin2" class="legales">Recrutement</a>
+			</div>
+		</div>
+	</section>	
+      
+       
+      
+    
+{% endblock %}

@@ -1,0 +1,197 @@
+{% extends data.outerLayout %}
+
+{% block main %}
+
+
+
+<section class="header">
+	<p class="numberCall">pour plus d’infos, nous contacter au <a href="#">00 00 00 00 00</a></p>
+	<div id="menu">	
+		<img src ="modules/my-apostrophe-assets/images/img/logo.png" id="logo">
+		<nav>
+	        <input type="checkbox" id="nav" /><label id="label" for="nav"></label>
+
+
+	        <ul >
+				<li class="respons"><a href="/">ACCUEIL</a>
+	            <li class="respons"><a href="activite">ACTIVITÉ</a>
+	            	<ul class="hoverMenu">
+	            	    <li><a class="rechercheAct" href="#">Rechercher une activité</a></li>
+	            		<li class="marginMenu"><a href="#">Restez en forme</a></li>
+	            		<li><a class="rechercheAct" href="#">Culturellement votre</a></li>
+	            		<li class="marginBott"><a class="rechercheAct" href="#">Ateliers</a></li>
+	            	</ul>
+	            </li>
+
+
+	            <li class="respons"><a href="#">COFFRETS</a></li>
+	            <li class="respons"><a href="#">ANIMATEURS</a></li>
+	            <li class="barre"><a href="about-us6">CONCEPT</a></li>
+	        </ul>
+
+	    </nav>
+	    <div class="user">
+	    	<a  href="#"><img src ="modules/my-apostrophe-assets/images/img/objet1.png" id="imgUser"></a>
+	    </div>
+	    <a class="userRes" href="#"><img src ="modules/my-apostrophe-assets/images/img/user2.png"></a>	
+	</div>
+</section>
+
+<section class="map">
+	<div id="map-canvas"></div>
+		<script>
+	  		var markers = 
+	  		[
+	    		{
+	     		"lat": "48.866042 ",
+	      		"lng": " 2.364678",
+	      		"title": "Marker 0"
+	    		},
+	    		{
+	     	 	"lat": "48.868752",
+	      		"lng": "2.349229",
+	      		"title": "Marker 1"
+	    		}
+	  		];
+		</script>
+</section>
+<section class="rechercheActivite">
+
+<div class="buttonForme">
+	<div class="dropdown2">
+	  <a id="colorForme"  class="button1"> Restez en forme</a>
+	</div>
+
+	<div class="content1">
+	  <ul class="ulButton">
+	    <a href="#"><li class="liButton"> Yoga </li></a>
+	    <a href="#"><li class="liButton"> Taï chi </li></a>
+	    <a href="#"><li class="liButton"> Aquagym </li></a>
+	    <a href="#"><li class="liButton"> Fitness </li></a>
+	  </ul>    
+	</div>
+</div>
+
+<div class="buttonCulture">
+	<div class="dropdown2">
+	  <a id="colorCulture" class="button2">Culturellement vôtre</a>
+	</div>
+
+	<div class="content2">
+	  <ul class="ulButton">
+	    <a href="#"><li class="liButton"> Item </li></a>
+	    <a href="#"><li class="liButton"> Item  </li></a>
+	    <a href="#"><li class="liButton"> Item  </li></a>
+	    <a href="#"><li class="liButton"> Item  </li></a>
+	  </ul>    
+	</div>
+</div>
+
+<div class="buttonAtelier">
+	<div class="dropdown2">
+	  <a id="colorAtelier" class="button3">Ateliers</a>
+	</div>
+
+	<div class="content3">
+	  <ul class="ulButton">
+	    <a href="#"><li class="liButton"> Item  </li></a>
+	    <a href="#"><li class="liButton"> Item  </li></a>
+	    <a href="#"><li class="liButton"> Item  </li></a>
+	    <a href="#"><li class="liButton"> Item  </li></a>
+	  </ul>    
+	</div>
+</div>
+
+<div class="buttonEvent">
+	<div class="dropdown2">
+	  <a id="colorEvent" class="button4">Event</a>
+	</div>
+
+	<div class="content4">
+	  <ul class="ulButton">
+	    <a href="#"><li class="liButton"> Item  </li></a>
+	    <a href="#"><li class="liButton"> Item  </li></a>
+	    <a href="#"><li class="liButton"> Item  </li></a>
+	    <a href="#"><li class="liButton"> Item  </li></a>
+	  </ul>    
+	</div>
+</div>
+<div class="buttonGroupeSolo">
+	<p class="participanp">Participants :</p>
+	<div class="buttonParticipant">
+		<a class="groupe"><img src="modules/my-apostrophe-assets/images/img/groupe.png"></a>
+		<a class="solo" href="#"><img class="widthImg" src="modules/my-apostrophe-assets/images/img/solo.png"></a>
+	</div>	
+</div>
+<div class="blocRendezvous">
+	<p class="participanp">À partir de :</p>
+  		<div class='dropdown' id='icecream-dropdown'>
+  			<div class='dropdown-button'>Heure</div>
+  			<span class='triangle'>&#9660;</span>
+  			<ul class='dropdown-selection'>
+    			<li>10 H</li>
+    			<a href="recherche-activite4/recherche-activiteb"><li >14 H</li></a>
+    			<li>16 H</li>
+    			<li>17 H</li>
+  			</ul>
+		</div>
+		<div class='dropdown' id='music-dropdown'>
+  			<div class='dropdown-button'>Min</div>
+  			<span class='triangle'>&#9660;</span>
+  			<ul class='dropdown-selection'>
+    			<li>00 Min</li>
+    			<li>30 Min</li>
+  			</ul>
+		</div>
+	<p class="participanp">Jour :</p>
+	<div class="calendar">
+		 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.3/moment.min.js"></script>
+			<input class="inputCalendar" type="date" data-date="" data-date-format="DD-MM-YYYY" value="2017-03-13">
+  		<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>	    
+	 </div>
+</div>
+</section>
+
+<section class="footer">
+		<div class="footerEnd">
+			<a href="#" class="blog">Blog</a>
+			<div class="blockFooter">
+				<div class="display">
+					<p class="footerSilver">Silver Act</p>
+					<p class="tel">07 82 82 41 68</p>
+				</div>
+					<div class="social">
+						<ul class='cbttopshare'> 
+							<li class='facebook'> 
+								<a href='http://www.facebook.com/' rel='nofollow' target='_blank' title='facebook'></a>
+							</li> 
+							<li class='googleplus'> 
+								<a href='https://plus.google.com/' rel='nofollow' target='_blank' title='googleplus'></a>
+							</li>
+							<li class='twitter'> 
+								<a href='http://twitter.com/' rel='nofollow' target='_blank' title='twitter'></a>
+							</li>  
+						</ul>
+					</div>
+			</div>
+			<div class="blockRight">
+				<a href="#" id="margin" class="legales">Mentions légales</a>
+				<a href="#" id="margin2" class="legales">Recrutement</a>
+			</div>
+		</div>
+	</section>
+
+
+
+
+
+
+
+
+<script src='https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false'></script>
+
+
+{% endblock %}
+
+
+	

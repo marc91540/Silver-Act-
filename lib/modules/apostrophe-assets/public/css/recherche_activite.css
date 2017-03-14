@@ -1,0 +1,771 @@
+@font-face {
+
+    font-family: 'Avenir';
+    src:url(../policesSA/Avenir.ttc),
+    url("../policesSA/Avenir.eot") format("eot"),
+    url("../policesSA/Avenir.woff") format("woff"),
+    url("../policesSA/Avenir.ttf") format("truetype");
+    
+}
+
+html { 
+    width:100%; height:100%;
+}
+
+body {
+	    margin:0px;
+	    padding:0px;
+        width:100%; 
+        height:100%;
+  }
+
+
+/*-----------------------  MAP ----------------*/
+#map-canvas {
+  height: 80vh;
+  width: 50vw;
+}
+.map{
+    display: inline-block;
+    float: left;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+/*-----------------------  MAP - bloc right ----------------*/
+
+        /*-----------------------  MAP - button activité ----------------*/
+.rechercheActivite{
+    width: 49%;
+    height: 80%;
+    display: inline-block;
+    float: right;
+    margin-top: 60px;
+
+}
+
+
+.buttonForme, .buttonAtelier {
+    text-align:center;
+    cursor:pointer;
+    width:45%;
+    margin-top: 15px;
+    display: inline-block;
+   
+}
+
+.buttonCulture, .buttonEvent{
+    text-align:center;
+    cursor:pointer;
+    width:55%;
+    margin-top: 15px;
+    display: inline-block;
+    float: right;
+}
+.buttonAtelier, .buttonEvent{
+    margin-top: 60px;
+}
+
+
+
+#colorForme{
+    background-color: #df9454;
+}
+
+#colorCulture{
+    background-color: #9f71aa;
+}
+
+#colorAtelier{
+    background-color: #ecc54f;
+    padding: 10px 87px 10px 87px;
+}
+#colorEvent{
+    background-color: #3182ab;
+    padding: 10px 110px 10px 110px;
+
+}
+
+
+
+.dropdown2 a {
+    border-radius: 5px;
+    font-size: 22px;
+    width:100%;
+    box-shadow:10px 10px 50px rgba(0,0, 0, .3);
+    text-decoration: none;
+    font-family: 'avenir next';
+    color: white;
+    padding: 10px 45px 10px 45px;
+    margin-top: 0px;
+}
+
+
+
+.dropdown2 a:focus {
+  background-color: #f39c12;
+}
+
+.dropdown2 a:hover {
+  background-color: #f39112;
+}
+
+.content1, .content2, .content3, .content4 {
+  background-color:#fff;
+  border-radius:5px;
+  margin-top:14px;
+  max-width:0px;
+  max-height:0px;
+  overflow:hidden;
+  transition:.05s ease all;
+  box-shadow:10px 10px 50px rgba(0,0, 0, .5);
+
+}
+
+.full-size{
+   max-height:300px;
+   max-width:100%;
+   color:black;
+
+}
+
+.ulButton {
+    font-family: 'avenir next';
+    list-style:none;
+    margin:10px auto;
+}
+.ulButton a{
+    text-decoration: none;
+    color: black;
+}
+.liButton {
+  padding:10px 0px;
+  border-bottom:1px solid #eaeaea;
+}
+
+.liButton:hover {
+  -webkit-transform:translateY(-6px);
+   transition:.2s ease all;
+  text-shadow:1px 1px 5px rgba(0, 0, 0, .3);
+}
+
+.ulButton :last-child {
+  border-bottom:none;
+}
+
+    /*-----------------------  MAP - button solo groupe ----------------*/
+
+    .buttonGroupeSolo{
+        width: 43%;
+        height: 25%;
+        margin-top: 9%;
+        display: inline-block;
+        padding-left: 15px;
+
+    }
+    
+    .participanp{
+        font-family: 'avenir next';
+        font-size: 21px;
+        font-weight:bold;
+        color: #5b5b5b;
+    }
+    
+    .groupe, .solo{
+        background-color: #5b5b5b;
+    }
+    .buttonParticipant{
+        margin-top: 40px;
+    }
+    .buttonParticipant img{
+        width: 25%;
+    }
+    .buttonParticipant .widthImg{
+        width: 14%;
+    }
+    .groupe{
+        border-radius: 50%;
+        padding: 60px 15px 20px 15px;
+        margin-right: 21%;
+        cursor:pointer;
+        
+        
+    }
+    .solo{
+        border-radius: 50%;
+        padding: 60px 30px 20px 30px;
+    }
+
+    .solo:hover{
+       background-color: #3182ab; 
+    }
+    .groupe:hover{
+       background-color: #3182ab; 
+    }
+        /*-----------------------  MAP - rendez vous ----------------*/
+.blocRendezvous{
+    width: 51%;
+    display: inline-block;
+    float: right;
+    margin-top: 9%;
+    height: 162px;
+}
+
+.dropdown{
+  display:inline-block;
+  font-family:arial;
+  position:relative;
+  margin:15px;
+  font-size:16px;
+    border: 1px solid;
+    border-color: #5b5b5b;
+}
+.dropdown-button {
+  background: white;
+  border-color: #5b5b5b;
+  min-width:100px;
+  color:#5b5b5b;
+  letter-spacing:0.025rem;
+  box-sizing:border-box;
+  padding:10px 30px 10px 20px;
+  border-radius:0px;
+  position:relative;
+  cursor:pointer;
+  transition:background .3s ease;
+   
+}
+.dropdown-button:hover {
+  background:#2980b9;
+  transition:background .3s ease;
+  color:white;
+}
+.dropdown:hover {
+  border-color: white;
+  transition:background .3s ease;
+}
+
+.triangle {
+  font-size:50%;
+  position:absolute;
+  right:10px;
+  top:-2px;
+  bottom:0;
+  margin-top:auto;
+  margin-bottom:auto;
+  height:5px;
+  color:#5b5b5b;
+}
+.dropdown ul.active {
+  visibility:visible;
+  transition:all .3s ease;
+  transform:scaleY(1);
+  color:#333;
+  z-index: 2;
+}
+.dropdown ul {
+  visibility:hidden;
+  overflow:hidden;
+  color:#fff;
+  transform-origin:top;
+  padding:0;
+  list-style:none;
+  transform:scaleY(0);
+  box-shadow:0px 2px 6px 0 rgba(0,0,0,0.2);
+  position:absolute;
+  left:0;
+  margin-top:2px;
+  top:100%;
+  min-width:90%;
+  transition:all .3s ease;
+}
+.dropdown li {
+  background:#fff;
+  padding:8px 10px 8px 15px;
+  box-sizing:border-box;
+  cursor:pointer;
+  transition:background .2s ease;
+  position:relative;
+}
+.dropdown-selection a{
+    text-decoration: none;
+    color:#5b5b5b;
+}
+.dropdown li.check {
+  background:#f6f6f6;
+}
+.dropdown li.check:after {
+  content:'';
+  position:absolute;
+  height:15px;
+  width:3px;
+  background:#ccc;
+  top:0;
+  bottom:0;
+  margin-top:auto;
+  transform:rotate(40deg);
+  margin-bottom:auto;
+  right:15px;
+}
+.dropdown li.check:before {
+  content:'';
+  position:absolute;
+  height:3px;
+  width:9px;
+  background:#ccc;
+  top:6px;
+  bottom:0;
+  margin-top:auto;
+  transform:rotate(40deg);
+  margin-bottom:auto;
+  right:19px;
+}
+.dropdown li:hover {
+  background:#f6f6f6;
+  transition:background .2s ease;
+}
+
+        /*-----------------------  MAP - jour ----------------*/
+.calendar{
+    margin-left: 16px;
+    display: inline-block;
+    border: 1px solid;
+    border-color: #5b5b5b;
+     margin-top: 15px;
+    cursor: pointer;
+}
+
+.inputCalendar {
+    position: relative;
+    width: 150px; height: 20px;
+    color: white;
+    padding: 10px 40px 10px 40px;
+    border: solid;
+    cursor: pointer;
+}
+
+
+.inputCalendar:before {
+    position: absolute;
+    top: 9px;
+    left: 17px;
+    content: attr(data-date);
+    display: inline-block;
+    color: #5b5b5b;
+    font-family: 'avenir next';
+    font-size: 16px;
+
+}
+
+.inputCalendar::-webkit-datetime-edit, input::-webkit-inner-spin-button, input::-webkit-clear-button {
+    display: none;
+}
+
+.inputCalendar::-webkit-calendar-picker-indicator {
+    position: absolute;
+    top: 6px;
+    right: 20px;
+    color: #5b5b5b;
+    opacity: 1;
+    padding:10px 20px 10px 20px;
+    background-color: white;
+}
+
+/*-----------------------  Resultat ----------------*/
+    
+    /*-----------------------  bloc blue ----------------*/
+.Resultat{
+    clear: both;
+    border: solid 1px;
+    height: 100%;
+    font-family: 'avenir next';
+    color: white;
+    padding-top: 20px;
+}
+    .blocBlue{
+        background-color: #3182ab;
+        padding-bottom: 20px;
+        margin-top: 20px;
+    }
+    .blocL{
+        width: 29%;
+        padding-left: 50px;
+        padding-top: 30px;
+        display: inline-block;
+    }
+        .ActiviteResultat{
+            font-size: 26px;
+            font-weight: bold;
+            color: white;
+        }
+        .ActiviteProf{
+            font-size:20px;
+            padding-top: 5px;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        .ActiviteTime{
+            font-size:20px;
+            padding-bottom: 40px;
+        }
+        .ActiviteDescription{
+            font-size:18px;
+        }
+        .ActiviteDescription .pointVin{
+            margin-left: 25px;
+            display: inline-block;
+            line-height: 1.2;
+            }
+
+    .blocR{
+        display: inline-block;
+        width: 60%;
+        float: right;
+        border-left: 1px solid;
+        height: 70px;
+        margin-top: 30px;
+    }
+            .ActiviteAdresse1{
+                display: inline-block;
+                width: 20%;
+                padding-top: 10px;
+                padding-left: 15px;
+            }
+            #blocBloc{
+                display: none;
+            }
+
+            .buttonActivite{
+                float: right;
+                margin-right: 50px;
+                margin-top: 20px;
+                font-weight: bold;
+                font-size: 17px;
+                text-decoration: none;
+                color: white;
+                font-family: "avenir";
+                border: solid 2px;
+                padding-left: 30px;
+                padding-right: 30px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                border-radius: 6px;
+        }
+            .buttonActivite:hover{
+                background-color: white;
+                color:#3182ab;
+                border-color: white;
+            }
+                
+    .blocRB{
+        margin-top: 55px;
+        margin-left: 30px;
+    }
+        .imgBlocRB{
+            width: 32.5%;
+        }
+        /*-----------------------  bloc yellow----------------*/
+
+    #colorBloc{
+        background-color: #ecc54f;
+        margin-bottom: 20px;
+    }
+    .hourPosition{
+        display: inline-block;
+        margin-left: 54px;
+    }
+        #positionBlocL{
+            padding-top: 70px;
+        }
+
+        #positionAdresse1{
+            position: relative;
+            top: -20px;
+            border-left: 1px solid;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        .booking{
+            width: 30%;
+            height: 100%;
+            display: inline-block;
+            float: right;
+            margin-right: 50px;
+            margin-top: 5px;
+        }
+
+        #colorDropdown{
+            border-color: white;
+            border: 2px solid;
+            margin-left: 11px;
+                
+        }
+        #positionDropdown{
+            margin-left: 96px;
+        }
+        #colorDropdown-button{
+            background: #ecc54f;
+            border-color: white;
+            color: white;
+        }
+            #colorDropdown-button:hover{
+                background-color: white;
+                color:#ecc54f;
+            }
+
+        #colorTriangle{
+            color:white;  
+        }
+
+
+        #calendarColor{
+            border-color: white;
+            border: 2px solid;
+            margin-left: 65px;
+        }
+        #colorInput{
+            background-color:#ecc54f;
+            border-color: #ecc54f; 
+        }
+        #colorInput:before{
+                color: white;
+        }
+        #colorInput::-webkit-calendar-picker-indicator {
+            position: absolute;
+            top: 6px;
+            right: 20px;
+            color: white;
+            opacity: 1;
+            padding:10px 20px 10px 20px;
+            background-color: #ecc54f;
+        }
+
+        #positionAjouter{
+            margin-right: 71px;
+        }
+        #positionAjouter:hover{
+            color: #ecc54f;
+        }
+
+
+/*#recherche {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+}
+
+#map {
+    width: 50%;
+    height: 720px;
+    float: left;
+    background: blue;
+}
+
+#activite {
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-top: 10%;
+}
+
+#left {
+    float: left;
+    width: 40%;
+    margin: 3% 5% 0% 5%;
+}
+
+#left span p {
+    font-size: 120%;
+    font-family: "Avenir";
+    font-weight: bolder;
+    color: #616264;
+}
+
+#left ul {
+    margin-top: 5%;
+}   
+
+#left ul li p{
+    font-family: 'Avenir';
+    font-weight: bolder;
+    font-size: 20px;    
+    text-align: center;
+}
+
+#left ul li:first-child {
+    background: #df9454;
+    color: #fff;
+    padding: 4% 0%;
+    border-radius: 10px;
+}
+
+#left ul li:last-child {
+    background: #ecc54f;
+    color: #fff;
+    padding: 4% 0%;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+
+#left ul li:first-child:hover {
+    background: #fff;
+    border: solid 5px #df9454;
+    color: #df9454;
+    padding: 2% 0%;
+}
+
+#left ul li:last-child:hover {
+    background: #fff;
+    border: solid 5px #ecc54f;
+    color: #ecc54f;
+    padding: 2% 0%;
+}
+
+#right {
+    float: left;
+    width: 40%;
+    margin: 8% 5% 0% 5%;
+}
+
+#right ul li p{
+    font-family: 'Avenir';
+    font-weight: bolder;
+    font-size: 120%;    
+    text-align: center;
+}
+
+#right ul li:first-child {
+    background: #9f71aa;
+    color: #fff;
+    padding: 4% 0%;
+    border-radius: 10px;
+}
+
+#right ul li:last-child {
+    background: #3182ab;
+    color: #fff;
+    padding: 4% 0%;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+
+#right ul li:first-child:hover {
+    background: #fff;
+    border: solid 5px #9f71aa;
+    color: #9f71aa;
+    padding: 2% 0%;
+}
+
+#right ul li:last-child:hover {
+    background: #fff;
+    border: solid 5px #3182ab;
+    color: #3182ab;
+    padding: 2% 0%;
+}
+
+#choose{
+    float: left;
+    width: 50%;
+    height: auto;
+    margin-top: 5%;
+}
+
+#groupe {
+    float: left;
+    width: 20%;
+    margin-left:5%;
+}
+
+#groupe span p {
+    font-size: 120%;
+    font-family: "Avenir";
+    font-weight: bolder;
+    color: #616264;
+}
+
+#groupe ul {
+    margin-top: 15%;
+}
+
+#groupe ul li:first-child{
+    background: #616264;
+    border-radius: 50%;
+    padding: 12% 0%;
+    text-align: center;
+}
+
+#groupe ul li {
+    font-size: 100%;
+    font-family: "Avenir";
+    font-weight: bolder;
+    color: #616264;
+    text-align: center;
+}
+
+#solo {
+    float: left;
+    width: 20%;
+    margin-left:5%;
+    margin-top: 6%;
+}
+
+#solo ul li:first-child{
+    background: #616264;
+    border-radius: 50%;
+    padding: 12% 0%;
+    text-align: center;
+}
+
+#solo ul li {
+    font-size: 100%;
+    font-family: "Avenir";
+    font-weight: bolder;
+    color: #616264;
+    text-align: center;
+}
+
+#day {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+
+#day ul {
+    margin-top: 5%;
+}   
+
+#day ul li p{
+    font-family: 'Avenir';
+    font-weight: bolder;
+    font-size: 120%;
+}
+
+#day ul li:first-child {
+    font-size: 120%;
+    font-family: "Avenir";
+    font-weight: bolder;
+    color: #616264;
+}
+
+#day ul li:nth-child(2) {
+    border: solid 5px #5b5b5b;
+    color: #5b5b5b;
+    padding: 2% 0%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#day ul li:last-child {
+    background: #ecc54f;
+    color: #fff;
+    padding: 4% 0%;
+    margin-top: 20%;
+    border-radius: 10px;
+}
+
+
+*/
+
+
+

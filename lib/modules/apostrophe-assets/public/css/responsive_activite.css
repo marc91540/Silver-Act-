@@ -1,0 +1,541 @@
+
+@media screen and (max-width: 1177px){
+     
+    .groupe {
+        padding: 60px 20px 20px 20px;
+        margin-right: 10%;
+    }      
+    .solo {
+        padding: 60px 33px 20px 33px;
+    } 
+    .dropdown2 a {
+        padding: 10px 35px 10px 35px;
+
+    }
+    #colorAtelier {
+        padding: 10px 77px 10px 77px;
+    }
+    #colorEvent {
+        padding: 10px 100px 10px 100px;
+    }
+    
+    /*-------------------responsive ActiveB------------------------*/
+    
+    #positionAjouter {
+        margin-right: 40px;
+    }
+    
+}
+	
+@media screen and (max-width: 1068px){
+    
+    .dropdown2 a {
+        font-size: 20px;
+    }
+    .dropdown {
+        margin-right: 5px;
+    }
+    .groupe {
+        padding: 54px 20px 20px 20px;
+        margin-right: 5%;
+    }
+    .solo {
+        padding: 54px 33px 20px 30px;
+    }
+    #colorEvent {
+        padding: 10px 95px 10px 95px;
+    }
+    
+ /*-------------------responsive ActiveB------------------------*/
+    .blocRB {
+        width: 100%;
+    }
+    .imgBlocRB {
+        width: 37.5%;
+    }
+    #positionAjouter {
+        margin-right: 8px;
+    }
+
+}
+
+@media screen and (max-width: 963px){
+
+    .dropdown2 a {
+        font-size: 16px;
+    }
+    #colorAtelier {
+        padding: 10px 66px 10px 66px;
+    }
+    #colorEvent {
+        padding: 10px 80px 10px 80px;
+    }
+    .participanp {
+        font-size: 20px;
+    }
+    .buttonParticipant img {
+        width: 23%;
+    }
+        .groupe {
+            padding: 44px 18px 20px 18px;
+            margin-right: 5%;
+        }
+    .buttonParticipant .widthImg {
+        width: 12%;
+    }
+	    .solo {
+            padding: 44px 30px 20px 30px;
+        }
+    
+
+    .dropdown {
+      margin-left: 0px;
+    }
+    .calendar {
+        margin-left: 0px;
+    }
+    .inputCalendar {
+        padding: 7px 30px 7px 30px;
+    }
+    .rechercheActivite {
+        margin-top: 110px;
+    }
+    
+        
+ /*-------------------responsive ActiveB------------------------*/
+    .ActiviteDescription {
+        font-size: 16px;
+    }
+    .blocR {
+       padding-bottom: 10px;
+    }
+    .imgBlocRB {
+        width: 41.5%;
+    }
+    .blocRB {
+        margin-left: 0px;
+        display: inline-block;
+    }
+    #colorDropdown {
+        margin-left: 0px;
+    }
+    #calendarColor {
+        margin-left: 53px;
+    }
+    #positionAjouter {
+        margin-right: 0px;
+    }
+    .calendar {
+        margin-top: 9px;
+    }
+    .booking {
+        margin-top: 21px;
+    }
+    #positionBlocL {
+        padding-top: 66px;
+    }
+    #positionResultat{
+        font-size: 21px;
+    }
+    .blocBlue {
+        padding-bottom: 49px;
+    }
+
+}
+
+
+@media screen and (max-width: 845px){
+
+    .dropdown2 a {
+        font-size: 15px;
+    }
+    .dropdown2 a {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    #colorAtelier {
+        padding: 10px 55px 10px 55px;
+    }
+    #colorEvent {
+        padding: 10px 75px 10px 75px;
+    }
+    .participanp {
+        font-size: 18px;
+    }
+    .groupe {
+        padding: 40px 18px 18px 18px;
+        margin-right: 5%;
+    }
+    .solo {
+        padding: 39px 28px 18px 27px;
+    }
+    .dropdown {
+        margin-left: 0px;
+    }
+    .dropdown-button {
+        min-width: 0px;
+    }
+    .dropdown {
+        font-size: 15px;
+    }
+    .inputCalendar {
+        padding: 7px 16px 7px 16px;
+    }
+    .inputCalendar:before {
+        font-size: 16px;
+        top: 7px;
+    }
+    .inputCalendar::-webkit-calendar-picker-indicator {
+    top: 5px;
+    }
+    
+     /*-------------------responsive ActiveB------------------------*/
+    .ActiviteResultat {
+        font-size: 23px;
+    }
+    .ActiviteProf {
+        font-size: 17px;
+    }
+    .ActiviteTime {
+        font-size: 17px;
+    }
+    .ActiviteDescription {
+        font-size: 14px;
+    }
+    .ActiviteAdresse2{
+        font-size: 14px;
+    }
+    .blocRB {
+        width: 99%;
+    }
+    .imgBlocRB2{
+        width: 52%;
+    }
+    .imgBlocRB {
+        width: 38%;
+    }
+    .booking {
+    width: 33%;
+    }
+}
+
+@media screen and (max-width: 813px){
+    .buttonParticipant img {
+        width: 22%;
+    }
+        .groupe {
+            padding: 35px 16px 17px 16px;
+        }
+    .buttonParticipant .widthImg {
+        width: 11%;
+    }
+        .solo {
+            padding: 34px 25px 18px 25px;
+        }
+    
+    /*-------------------responsive ActiveB------------------------*/
+    
+    .booking {
+        width: 34%;
+    }
+} 
+
+
+@media screen and (max-width: 768px) {
+    .map {
+        display: block;
+        float: initial;
+    }
+    #map-canvas {
+        width: 100vw;
+    }
+	.rechercheActivite {
+        margin-top: 50px;
+        display: block;
+        float: initial;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .dropdown2 a {
+        font-size: 22px;
+        padding: 10px 45px 10px 45px;
+    }
+    #colorAtelier {
+        padding: 10px 85px 10px 85px;
+    }
+    #colorEvent {
+        padding: 10px 120px 10px 120px;
+    }
+    .buttonParticipant img {
+        width: 25%;
+    }
+        .groupe {
+            padding: 60px 15px 20px 15px;
+            margin-right: 21%;
+        }
+    .buttonParticipant .widthImg {
+        width: 14%;
+    }
+        .solo {
+            padding: 60px 30px 20px 30px;
+        }
+    .participanp {
+        font-size: 21px;
+    }
+    .dropdown {
+        font-size: 18px;
+    }
+    .dropdown-button {
+        padding: 10px 30px 10px 20px;
+    }
+    #icecream-dropdown{
+        margin-right: 40px;
+    }
+    .inputCalendar {
+        padding: 7px 35px 7px 35px;
+    }
+    .inputCalendar:before {
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .buttonGroupeSolo {
+        margin-top: 19%;
+    }
+    .blocRendezvous {
+        margin-top: 19%;
+    }
+    .rechercheActivite {
+        height: 450px;
+        margin-bottom: 30px;
+    }
+    
+    /*-------------------responsive ActiveB------------------------*/
+    .blocL {
+        width: 90%;
+        display: block;
+    }
+    .ActiviteDescription {
+        width: 93%;
+    }
+    
+    #noneBloc{
+        display: none;
+    }
+    
+    #blocBloc{
+        display: block;
+        width: 90%;
+        margin-left: 5%;
+    }
+    .ActiviteAdresse1 {
+        width: 41%;
+        padding-top: 40px;
+    }
+    .buttonActivite {
+    float: initial;
+    display: block;
+    width: 29%;
+    margin-left: 214px;
+    margin-top: 40px;
+    }
+    #positionAjouter{
+        margin-left: 176px;   
+    }
+    .booking {
+    width: 90%;
+    display: block;
+    float: initial;
+    margin-top: 0px;
+    margin-left: 70px;
+    }
+    .inputCalendar {
+        padding-top: 1px;
+        padding-bottom: 10px;
+    }
+    .inputCalendar:before {
+        top: 4px;
+    }
+    #positionResultat {
+        font-size: 23px;
+    }
+    #positionAdresse1 {
+        padding-bottom: 0px;
+        padding-top: 0px;
+        margin-left: 48px;
+        position: relative;
+        top: -20px;
+}
+    
+}
+
+@media screen and (max-width: 600px){
+    .rechercheActivite {
+        width: 90%;
+        margin-left: 5%;
+    }
+    .dropdown2 a {
+        font-size: 17px;
+        padding: 10px 35px 10px 35px;
+    } 
+    #colorAtelier {
+        padding: 10px 69px 10px 69px;
+    }
+    #colorEvent {
+        padding: 10px 94px 10px 94px;
+    }
+    .groupe {
+        padding: 55px 20px 20px 20px;
+        margin-right: 7%;
+    }
+    .solo {
+        padding: 54px 30px 20px 30px;
+    }
+    /*-------------------responsive ActiveB------------------------*/
+    
+    #calendarColor {
+        margin-left: 20px;
+    }
+    .booking {
+        margin-left: 18px;
+    }
+    #positionAjouter {
+        margin-left: 146px;
+        width: 36%;
+    }
+    .buttonActivite {
+        width: 35%;
+        margin-left: 143px;
+    }
+ 
+}
+
+@media screen and (max-width: 480px){
+    .dropdown2 a {
+    font-size: 15px;
+    padding: 10px 35px 10px 35px;
+    }
+    #colorAtelier {
+        padding: 10px 63px 10px 63px;
+    }
+    #colorEvent {
+        padding: 10px 85px 10px 85px;
+    }
+    .participanp {
+        font-size: 20px;
+    }
+    .buttonParticipant img {
+        width: 23%;
+    }
+        .groupe {
+            padding: 43px 20px 20px 20px;
+            margin-right: 3%;
+    }
+    icipant .widthImg {
+        width: 12%;
+    }
+    .solo {
+        padding: 42px 27px 20px 27px;
+    }
+    #icecream-dropdown {
+    margin-right: 10px;
+    } 
+    .inputCalendar {
+        padding: 7px 22px 7px 22px;
+    }
+    .dropdown {
+        font-size: 15px;
+    }
+    .inputCalendar:before {
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    /*-------------------responsive ActiveB------------------------*/
+    
+    .blocRB {
+        margin-left: 8px;
+    }
+    .ActiviteAdresse1 {
+        width: 66%;
+    }
+    .buttonActivite {
+        width: 44%;
+        margin-left: 80px;
+    }
+    .hourPosition {
+        margin-left: 0px;
+    }
+    .inputCalendar {
+        padding-bottom: 9px;
+        padding-top: 0px;       
+    }
+    #positionAjouter {
+        margin-left: 86px;
+        width: 44%;
+    }
+  
+}
+
+
+@media screen and (max-width: 400px){
+  .dropdown2 a {
+        padding: 10px 20px 10px 20px;
+    } 
+    #colorAtelier {
+        padding: 10px 48px 10px 48px;
+    }
+    #colorEvent {
+        padding: 10px 71px 10px 72px;
+    }
+    .groupe {
+        padding: 30px 13px 15px 13px;
+    }
+    .solo {
+        padding: 30px 21px 16px 21px;
+    }
+    widthImg {
+        width: 13%;
+    }
+    #icecream-dropdown {
+        margin-right: 2px;
+    }  
+    .inputCalendar {
+        padding: 7px 11px 7px 10px;
+    }
+    .rechercheActivite {
+        height: 410px;
+        margin-bottom: 30px;
+    }
+    
+	    /*-------------------responsive ActiveB------------------------*/
+    
+    .buttonActivite {
+        width: 54%;
+        margin-left: 46px;
+    }
+    .calendar {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    #calendarColor {
+        margin-left: 0px;
+    }
+    .dropdown {
+        font-size: 13px;
+    }
+    .inputCalendar {
+    padding-left: 0px;
+    padding-right: 12px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    }
+    .inputCalendar:before {
+        top: 5px;
+        left: 12px;
+    }
+    #positionAjouter {
+        margin-left: 55px;
+        width: 53%;
+    }
+ 
+}

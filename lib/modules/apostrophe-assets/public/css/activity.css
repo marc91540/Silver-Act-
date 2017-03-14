@@ -1,0 +1,144 @@
+ /*==========================================================================
+#title            : WEBSITE Silver Act
+#description      : website v2 silveract
+#author           :  Team Silver Act developers 
+#date             : 13/02/2017
+#version          : v2
+#notes            : Only working on search engine
+============================================================================*/
+
+
+.imgAct{
+ 
+}
+.imgPosition1 .imgActResp{
+  display: none;
+}
+.imgPosition2 .imgActResp{
+  display: none;
+}
+.imgPosition3 .imgActResp{
+  display: none;
+}
+.block1{
+     
+     width: 28%;  
+}
+
+/*  ---------- section 1 ---------*/
+.act1 img{
+        width: 100%;
+        display: block;
+}
+
+    #float1{
+    position: absolute;
+    left: 20px;
+    margin-top: 190px;    
+    }
+   
+    .titleActivite{
+        font-family: "avenir";
+        font-size: 35px;
+        padding-bottom: 30px;
+        font-weight: bold;
+    }
+    .textActivity{
+        font-family: "avenir";
+        font-size: 25px;
+        font-weight: 100;
+        padding-bottom: 50px; 
+    }
+
+body .btn-bg.bg-2 .btn-2 button {
+  color: white;
+  background: #3182ab;
+  border: none;
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  width: 50%;
+  font-family: "avenir";
+  font-size: 22px;
+  position: relative;
+}
+body .btn-bg.bg-2 .btn-2 button:hover {
+  background: transparent;
+  color: #3182ab;
+  font-family: "avenir";
+}
+body .btn-bg.bg-2 .btn-2 button:hover:before,
+body .btn-bg.bg-2 .btn-2 button:hover:after {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  width: 100%;
+}
+body .btn-bg.bg-2 .btn-2 button:before,
+body .btn-bg.bg-2 .btn-2 button:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 0px;
+  height: 3px;
+  background: #3182ab;
+  transition: all 0.4s ease;
+}
+body .btn-bg.bg-2 .btn-2 button:after {
+  top: inherit;
+  left: inherit;
+  bottom: 0;
+  right: 0;
+}
+
+
+/*  ---------- section 2 ---------*/
+.act2{
+    
+}
+#float2{
+        margin-top: 150px;
+        right: 20px;
+        float: right;
+        position: relative;
+        z-index: 1;
+        top: 0%;
+        text-align: -webkit-right;
+        clear: both;
+        margin-bottom: 128px;
+}
+
+
+
+.imgPosition2{
+    position: absolute;
+    clear: both;
+}
+
+    .act2 img{
+            width: 100%;
+            display: block;
+    }
+
+
+
+
+
+/*  ---------- section 3 ---------*/
+
+.act3{
+    clear: both;
+}
+
+#float3{
+    position: absolute;
+    z-index: 1; 
+    margin-top: 150px;
+    left: 20px;   
+}
+
+
+    .act3 img{
+        width: 100%;
+        display: block;
+    }
+

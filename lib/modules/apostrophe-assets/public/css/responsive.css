@@ -1,0 +1,1403 @@
+
+@media screen and (max-width: 1177px){
+	nav > ul > li > a {
+    	font-size: 15px;
+	}
+	#menu > nav {
+    margin-left: 225px;
+	}
+	#menu ul li:hover ul {	
+    right: 49%;
+	}
+
+	/*  section 2 */
+	#cercle {
+    	width: 32%;
+
+	}
+	.button{
+		margin-left: 30%;
+	}
+	.orange{
+		margin-left: 0%;
+	}
+	/*_____--------_______-------________-------_________-------____*/
+
+	/*--------------------- PAGE ACTIVITES -------------------------*/
+
+	/*_____--------_______-------________-------_________-------____*/
+
+	#float2 {
+    margin-bottom: 102px;
+    margin-top: 100px;
+	}
+	#float3 {
+    margin-top: 102px;
+	}
+    #float1 {
+    margin-top: 180px;
+    }
+}
+
+
+
+@media screen and (max-width: 1068px){
+
+	nav > ul > li > a {
+    	font-size: 13px;
+	}
+	#menu > nav {
+    	margin-left: 180px;
+	}
+	#logo {
+    left: 2%;
+    width: 18%;
+	}
+	#menu ul li:hover ul {	
+    right: 49%;
+	}
+	
+	/*  section 2 */
+	/*  section 2 */
+	.category{
+		font-size: 25px;
+	}
+	#cercle{
+		 height: 320px
+	}	
+	.button{
+		 margin-left: 28%;
+	}
+	.resume{
+		 margin-left: 13%;
+
+	}
+	/*  section 4 silver box */
+	.silverBoxBlock {
+    padding-top: 40px;
+	}
+	.typeSilver {
+    font-size: 55px;
+	}
+	.textSiverBox {
+    font-size: 24px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+	}
+	.savoirPlus {
+    font-size: 24px;
+	}
+
+	/*  section 5 avis block */
+	.citation2 {
+	    font-size: 25px;
+	}
+	.author {
+	    font-size: 19px;
+	}
+	.savoirPlus {
+    font-size: 19px;
+	}
+	.avis .hommeRond {
+    	width: 27%;
+    	display: inline-block;
+	}
+	/*_____--------_______-------________-------_________-------____*/
+
+	/*--------------------- PAGE ACTIVITES -------------------------*/
+
+	/*_____--------_______-------________-------_________-------____*/
+
+	#float2 {
+        margin-bottom: 102px;
+        margin-top: 100px;
+	}
+	#float3 {
+        margin-top: 102px;
+	}
+    #float1 .textActivity{
+        padding-bottom: 30px;
+    }
+	.titleActivite {
+        font-size: 33px;
+	}
+	.textActivity {
+        font-size: 20px;
+	}
+
+
+}
+	
+
+
+@media screen and (max-width: 963px){
+
+	nav > ul > li > a {
+    	font-size: 13px;
+	}
+	#menu >nav {
+    margin-left: 123px;
+	}
+	#logo {
+    	left: 2%;
+    	width: 16%;
+	}
+	#menu {
+    	top: 9px;
+	}
+	.user img{
+    	width: 77%;-
+	}
+	.user{
+    	padding-right: 10px;
+	}
+	#menu ul li:hover ul {	
+    right: 54%;
+	}
+	/*  section 2 */
+
+	.orange{
+		margin-right: 1%;
+		margin-left: 1%;
+	}
+	.violet{
+		margin-right: 1%;
+	}
+	#cercle{
+		width: 32%;
+	}
+
+	/*  section 4 silver box */
+	.typeSilver {
+    font-size: 50px;
+	}
+	.textSiverBox {
+    font-size: 24px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	}
+	.savoirPlus {
+    font-size: 24px;
+	}
+
+	/*  section 5 avis block */
+	.citation2 {
+	    font-size: 25px;
+	}
+	.author {
+	    font-size: 19px;
+	}
+	.savoirPlus {
+    font-size: 19px;
+	}
+	.avis .hommeRond {
+    	width: 27%;
+    	display: inline-block;
+	}
+	.author {
+    padding-bottom: 30px;
+
+	}
+
+	/*  section 6 newsletter */
+	.subscribe {
+    margin-left: 26%;
+
+	}
+
+	/*  section 7 footer */
+
+		.blog {
+    		padding-top: 2%;
+		}
+
+	/*_____--------_______-------________-------_________-------____*/
+
+	/*--------------------- PAGE ACTIVITES -------------------------*/
+
+	/*_____--------_______-------________-------_________-------____*/
+
+	#float1 {
+    	position: absolute;
+    	left: 20px;
+    	margin-top: 130px;
+	}
+	#float2 {
+    	margin-bottom: 78px;
+    	margin-top: 60px;
+	}
+	#float3 {
+        margin-top: 110px;
+
+	}
+	.titleActivite {
+    	font-size: 33px;
+	}
+	.textActivity {
+    	font-size: 20px;
+	}
+	
+
+
+}
+
+
+@media screen and (max-width: 845px){
+
+	/*  topNumber */
+	.numberCall {
+    padding-left: 30%;
+	}
+	
+	/*  __________------- */
+
+
+	nav > ul > li > a {
+    	font-size: 11px;
+	}
+	#menu > nav  {
+		margin-left: 120px;
+	}
+	#logo {
+    left: 2%;
+    width: 13%;
+	}
+	nav > ul > li {
+    	padding: 5px 30px 5px 30px;
+	}
+	#menu ul li:hover ul {	
+   		right: 53%;
+		}
+
+	/*  section 2 */
+	#cercle{
+		 height: 280px;
+	}
+	.button {
+    	margin-left: 28%;
+    	padding:4px 25px 4px 25px;
+	}
+		.button span{
+			font-size: 13px;
+		}
+	.resume{
+		font-size: 16px;
+	}
+	.category{
+		margin-top: 4%;
+		margin-bottom: 10%;
+	}
+		 .violet #resCat{
+			margin-top: 6%;
+			margin-bottom: 3%;
+		}
+		.violet .resume{
+			margin-bottom: 11%;
+		}
+		.yellow .category {
+			margin-top: 7%;
+		}
+		.blockText2 {
+    		font-size: 20px;
+		}
+		.violet2block {
+			 margin-top: 0px; 
+		}
+
+	/*  section 4 silver box */
+	.typeSilver {
+    font-size: 40px;
+	}
+	.textSiverBox {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+	}
+	.savoirPlus {
+    font-size: 20px;
+	}
+	/*  section 5 avis block */
+	.citation2 {
+	    font-size: 23px;
+	}
+	.author {
+	    font-size: 17px;
+	}
+	.savoirPlus {
+    font-size: 17px;
+	}
+	.avis .hommeRond {
+    	width: 29%;
+    	display: inline-block;
+	}
+	.author {
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+	}
+
+	/*  section 6 newsletter */
+	.subscribe {
+    margin-left: 23%;
+
+	}
+
+	/*  section 7 footer */
+
+
+	.blockFooter {
+    	display: inline-block;
+   		margin-left: 28%;
+	}
+
+	/*_____--------_______-------________-------_________-------____*/
+
+	/*--------------------- PAGE ACTIVITES -------------------------*/
+
+	/*_____--------_______-------________-------_________-------____*/
+
+	#float1 {
+    	position: absolute;
+    	left: 20px;
+    	margin-top: 110px;
+	}
+	#float2 {
+    	margin-bottom: 78px;
+    	margin-top: 60px;
+	}
+	#float3 {
+        margin-top: 100px;
+	}
+	.titleActivite {
+    	font-size: 30px;
+	}
+	.textActivity {
+    	font-size: 16px;
+	}
+	body .btn-bg.bg-2 .btn-2 button {
+    	font-size: 18px;
+    	height: 45px;	
+	}
+
+}
+
+
+@media screen and (max-width: 813px){
+
+
+	/*  section 2 */
+	.resume{
+		margin-bottom: 8%;
+	}
+		.violet .resume{
+			margin-bottom: 7%;
+		}
+		.violet2block {
+			 margin-top: 0px; 
+		}
+	.button{
+		margin-left: 29%;
+	}
+	.blockText2 {
+    font-size: 20px;
+	}
+	/* section 3 quelques mots */
+
+	.blockText2 {
+    font-weight: 200;
+	}
+	.typeSilver {
+    font-size: 44px;
+	}
+	.fewWords {
+    font-size: 26px;
+	}
+
+	/*_____--------_______-------________-------_________-------____*/
+
+	/*--------------------- PAGE ACTIVITES -------------------------*/
+
+	/*_____--------_______-------________-------_________-------____*/
+
+	#float1 {
+    	position: absolute;
+    	left: 20px;
+    	margin-top: 110px;
+	}
+	#float2 {
+    	margin-bottom: 73px;
+    	margin-top: 60px;
+	}
+	#float3 {
+    	margin-top: 100px;
+	}
+	.titleActivite {
+    	font-size: 30px;
+	}
+	.textActivity {
+    	font-size: 16px;
+	}
+	body .btn-bg.bg-2 .btn-2 button {
+    	font-size: 18px;
+    	height: 45px;	
+	}
+
+} 
+
+
+@media screen and (max-width: 768px) {
+	/*  topNumber */
+	.numberCall {
+    	padding-left: 17%;
+    	font-size: 22px;
+	}
+	
+	/*  __________------- */
+
+
+		
+	#logo{
+    top: auto;
+    right: auto;
+    bottom: auto;
+    width: auto;
+    left: 220%;
+	}
+
+	.user{
+		display: none;
+	}
+	.userRes{
+		display: inline-block;
+    	float: right;
+        right: 10px;
+        position: relative;
+    	top: -12px;
+	}
+	.userRes img{
+    width: 53%;
+    margin-top: 11px;
+    margin-bottom: 11px;
+	}
+
+	#menu {
+    padding-top: 36px;
+    padding-bottom: 28px;
+	}
+
+
+
+	nav ul {
+		display: none;
+		margin-left: 0px;
+		top: 72px;
+	}
+
+	label {
+  		display: block;
+    	width: 40px;
+    	height: 40px;
+    	cursor: pointer;
+   		position: absolute;
+    	left: 19%;
+    	top: 42%;
+	}
+
+	[type="checkbox"]:checked ~ ul {
+    display: block;
+    z-index: 9999;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0%;
+    top: 92px;
+    z-index: 2;
+    animation: down 1s 1;
+	}
+
+	@-webkit-keyframes down {
+		0% {
+		left:-225px;
+		}
+	
+		100% {
+			left: 0px;
+		}
+	}
+	ul .hoverMenu{
+		width: 100%;
+    	left: 100%;
+    	right: auto;
+    	top: 1%;
+	}
+
+	/*  section 2 */
+
+	.cercleActivity{
+		display: block;
+		width: 50%;
+		margin-left: 25%;
+	}
+	#cercle{
+		height: 370px;
+		width: 100%;
+	}
+
+	.button{
+		margin-left: 32%;
+	}
+		.button span {
+    		font-size: 17px;
+		}
+	.category{
+		    font-size: 30px;
+	}
+	.resume{
+		margin-bottom: 13%;
+		font-size: 20px;
+
+	}
+		.violet #resCat {
+    	margin-top: 6%;
+    	margin-bottom: 10%;
+		}
+		.violet .resume {
+    		margin-bottom: 13%;
+		}
+	.orange, .violet{
+		margin-bottom: 20px;
+	}	
+
+	/* section 3 map */
+
+	.img2 .map1{
+		width: 100%;
+		display: none;
+	}
+	.img2 .map2{
+		width: 100%;
+		display: block;
+	}
+
+	/* section 3 quelques mots */
+	.img2 .map1{
+	width: 100%;
+	display: none;
+	}
+	.img2 .map2{
+		display: block;
+		width: 100%;
+	}
+	.violet2block {
+    float: initial;
+    position: relative;
+    width: 94%;
+    left: 3%;
+	}
+	.violet1block {
+    display: block;
+    width: 66%;
+	}
+
+	.blockText2 {
+    font-size: 24px;
+	}
+	.typeSilver {
+    font-size: 60px;
+    padding-bottom: 10px;
+	}
+	.fewWords {
+    font-size: 35px;
+    padding-bottom: 50px;
+	}
+
+
+	/*  section 4 silver box */
+	
+	.blockImg{
+		width: 90%;
+    	margin-left: 5%;
+	}
+	.blockImg img {
+    width: 100%;
+	}
+	.silverBoxBlock {
+    display: inline-block;
+    width: 64%;
+   	float: initial;
+    margin-left: 20%;
+    margin-bottom: 10%;
+	}
+
+
+	/*  section 5 avis block */
+
+	.avis .hommeRond {
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+	}
+	.text {
+   	 width: 100%;
+	}
+	.author {
+    	display: block
+    	left: 0%;
+    	width: 100%;
+    	text-align: -webkit-center;
+    	left: 0%;
+	}
+	#buttonBoxBis {
+
+    	float: initial;
+    	width: 100%;
+    	margin-left: 35%;
+	}
+	.citation2 {
+    	width: 56%;
+    	color: #df9454;
+    	margin-left: 25%;
+	}
+
+	/*  section 6 newsletter */
+	.subscribe {
+    margin-left: 23%;
+	}
+	button {
+    right: 65px;
+	}
+	input[type="text"] {
+    width: 67%;
+	}
+	.subscribe h4 {
+		text-align: -webkit-auto;
+    	padding-left: 30px;
+	}
+
+	/*_____--------_______-------________-------_________-------____*/
+
+	/*--------------------- PAGE ACTIVITES -------------------------*/
+
+	/*_____--------_______-------________-------_________-------____*/
+	 .imgPosition1 .imgAct{
+		display: none;
+	}
+	.imgPosition2 .imgAct{
+		display: none;
+	}
+	.imgPosition3 .imgAct{
+		display: none;
+	}
+
+
+	.imgPosition1 .imgActResp{
+  		display: block;
+	}
+	.imgPosition2 .imgActResp{
+  		display: block;
+	}
+	.imgPosition3 .imgActResp{
+  		display: block;
+	}
+	
+
+	.act1{
+		    height: 870px;
+	}
+	.act3{
+		 height: 870px;
+
+	}
+    
+	#float1 {
+    	position: absolute;
+    	left: 136px;
+    	margin-top: 440px;
+    	width: 64%;
+	}
+	#float2 {
+    	margin-top: 400px;
+        margin-bottom: 53px;
+    	margin-right: 120px;
+    	width: 64%;
+	}
+	#float2 .f2{
+    	font-size: 18px;
+    	height: 45px;
+    	margin-right: 130px;	
+	}
+
+	#float3 {
+    	margin-top: 410px;
+    	left: 17%;
+    	width: 64%;
+
+	}
+	.titleActivite {
+    	font-size: 50px;
+    	text-align: center;
+    	font-weight: bold;
+	}
+	.textActivity {
+    	font-size: 30px;
+    	text-align: center;
+	}
+	body .btn-bg.bg-2 .btn-2 button {
+    	font-size: 18px;
+    	height: 45px;
+    	left: 0px;
+    	margin-left: 130px;	
+	}
+}
+
+@media screen and (max-width: 600px){
+	/*  topNumber */
+	.numberCall {
+    	padding-left: 10%;
+    	font-size: 18px;
+	}
+	
+	/*  __________------- */
+	
+
+
+
+	/*  section 2 */
+	.cercleActivity{
+		display: block;
+		width: 65%;
+		margin-left: 15%;
+	}
+	#cercle{
+		height: 370px;
+		width: 100%;
+	}
+	#logo {
+    top: auto;
+    right: auto;
+    bottom: auto;
+    width: auto;
+    left: 160%;
+	}
+	
+	/* section 3 quelques mots */
+	.img2 .map1{
+	width: 100%;
+	display: none;
+	}
+	.img2 .map2{
+		display: block;
+		width: 100%;
+	}
+	.violet2block {
+    float: initial;
+    position: relative;
+    width: 94%;
+    left: 3%;
+	}
+	.violet1block {
+    display: block;
+	}
+
+	.blockText2 {
+    font-size: 24px;
+	}
+	.typeSilver {
+    font-size: 60px;
+    padding-bottom: 10px;
+	}
+	.fewWords {
+    font-size: 35px;
+    padding-bottom: 50px;
+	}
+
+
+	/*  section 4 silver box */
+
+
+	.blockImg{
+		width: 90%;
+    	margin-left: 5%;
+	}
+	.blockImg img {
+    width: 100%;
+	}
+	.silverBoxBlock {
+    display: inline-block;
+    width: 64%;
+   	float: initial;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    padding-top: 0px;
+	}
+
+	/*  section 5 avis block */
+
+	.avis .hommeRond {
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+	}
+	.text {
+   	 width: 100%;
+	}
+	.author {
+    	display: block
+    	width: 100%;
+    	text-align: -webkit-center;
+    	left: 0%;
+	}
+	#buttonBoxBis {
+
+    	float: initial;
+    	width: 100%;
+    	margin-left: 30%;
+	}
+	.citation2 {
+    	width: 72%;
+    	color: #df9454;
+    	margin-left: 19%;
+	}
+
+
+	/*  section 6 newsletter */
+	.subscribe {
+        margin-left: 90px;
+            width: 390px;
+	}
+	button {
+    right: -18px;
+    width: 20%;
+	}
+	input[type="text"] {
+    width: 94%;
+	}
+	.subscribe h4 {
+		text-align: -webkit-auto;
+    	padding-left: 20px;
+	}
+
+	/*  section 7 footer */
+
+	.blockFooter {
+    display: inline-block;
+    margin-left: 18%;
+	}
+
+	.blog {
+    	font-size: 13px;
+	}
+	.footerSilver {
+    	font-size: 20px;
+	}	
+	.tel {
+    	font-size: 13px;
+	} 
+	.blockRight {
+    	font-size: 13px;
+	}
+
+	/*_____--------_______-------________-------_________-------____*/
+
+	/*--------------------- PAGE ACTIVITES -------------------------*/
+
+	/*_____--------_______-------________-------_________-------____*/
+
+	 .imgPosition1 .imgAct{
+		display: none;
+	}
+	.imgPosition2 .imgAct{
+		display: none;
+	}
+	.imgPosition3 .imgAct{
+		display: none;
+	}
+
+
+	.imgPosition1 .imgActResp{
+  		display: block;
+	}
+	.imgPosition2 .imgActResp{
+  		display: block;
+	}
+	.imgPosition3 .imgActResp{
+  		display: block;
+	}
+	
+
+	.act1{
+		    height: 730px;
+	}
+	.act3{
+		 height: 730px;
+
+	}
+
+	#float1 {
+    	position: absolute;
+    	left: 100px;
+    	margin-top: 350px;
+    	width: 64%;
+	}
+	#float2 {
+    	margin-top: 310px;
+    	margin-right: 90px;
+    	width: 64%;
+    	margin-bottom: 48px;
+	}
+	#float2 .f2{
+    	font-size: 18px;
+    	height: 45px;
+    	margin-right: 130px;	
+	}
+
+	#float3 {
+    	margin-top: 320px;
+    	left: 17%;
+    	width: 64%;
+
+	}
+	.titleActivite {
+    	font-size: 40px;
+    	text-align: center;
+    	font-weight: bold;
+	}
+	.textActivity {
+    	font-size: 25px;
+    	text-align: center;
+	}
+	body .btn-bg.bg-2 .btn-2 button {
+    	font-size: 18px;
+    	height: 45px;
+    	left: 0px;
+    	margin-left: 92px;	
+	}
+ 
+}
+
+@media screen and (max-width: 480px){
+
+	/*  topNumber */
+	.numberCall {
+    	padding-left: 8%;
+    	font-size: 16px;
+	}
+	
+	/*  __________------- */
+
+
+
+	#logo {
+		left: 168px;
+		width: 110%;
+		z-index: 3;
+	}
+
+	.user {
+    	left: 73%;
+	}
+
+	nav > ul > li {
+    	padding-left: 18px;
+    	padding-right: 10px;
+	}
+	nav > ul > li > a {
+    	font-size: 13px;
+	}
+	/*  section 2 */
+	.violet1block{
+		width: 90%;
+	}
+	.cercleActivity{
+		display: block;
+		width: 80%;
+    	margin-left: 10%;;
+	}
+	#cercle{
+		height: 370px;
+		width: 100%;
+	}
+	.button {
+    	margin-left: 30%;
+	}
+
+
+	/* section 3 quelques mots */
+	.violet2block {
+    float: initial;
+    position: relative;
+    width: 94%;
+    left: 3%;
+	}
+	.violet1block {
+    display: block;
+	}
+
+	.blockText2 {
+    font-size: 20px;
+	}
+	.typeSilver {
+    font-size: 50px;
+    padding-bottom: 10px;
+	}
+	.fewWords {
+    font-size: 30px;
+    padding-bottom: 50px;
+	}
+
+		/*  section 4 silver box */
+
+
+	.blockImg{
+		width: 90%;
+    	margin-left: 5%;
+	}
+	.blockImg img {
+    width: 100%;
+	}
+	.silverBoxBlock {
+    display: inline-block;
+    width: 64%;
+   	float: initial;
+    margin-left: 20%;
+    margin-bottom: 10%;
+    padding-top: 0px;
+	}
+
+	/*  section 5 avis block */
+
+	.avis .hommeRond {
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+	}
+	.text {
+   	 width: 100%;
+	}
+	.author {
+    	display: block;
+    	width: 100%;
+    	text-align: -webkit-center;
+    	left: 0%;
+	}
+	#buttonBoxBis {
+
+    	float: initial;
+    	width: 100%;
+    	margin-left: 25%;
+	}
+	.citation2 {
+    	width: 87%;
+    	color: #df9454;
+    	margin-left: 12%;
+    	font-size: 22px;
+	}
+
+	/*  section 6 newsletter */
+	.subscribe {
+    margin-left: 12%;
+	}
+	button {
+        right: 38px;
+    	height: 84%;
+	}
+	input[type="text"] {
+        width: 80%;
+    	height: 80%;
+	}
+	.subscribe h4 {
+		text-align: -webkit-auto;
+    	padding-left: 0px;
+	}
+
+	/*  section 7 footer */
+
+	.blockFooter {
+    display: inline-block;
+    margin-left: 13%;
+	}
+	.blog {
+    	font-size: 11px;
+	}
+	.footerSilver {
+    	font-size: 17px;
+	}	
+	.tel {
+    	font-size: 11px;
+	} 
+	.blockRight {
+    font-size: 11px;
+	}
+
+
+	/*_____--------_______-------________-------_________-------____*/
+
+	/*--------------------- PAGE ACTIVITES -------------------------*/
+
+	/*_____--------_______-------________-------_________-------____*/
+	
+	 .imgPosition1 .imgAct{
+		display: none;
+	}
+	.imgPosition2 .imgAct{
+		display: none;
+	}
+	.imgPosition3 .imgAct{
+		display: none;
+	}
+
+
+	.imgPosition1 .imgActResp{
+  		display: block;
+	}
+	.imgPosition2 .imgActResp{
+  		display: block;
+	}
+	.imgPosition3 .imgActResp{
+  		display: block;
+	}
+	
+
+	.act1{
+		    height: 680px;
+	}
+	.act3{
+		 height: 660px;
+
+	}
+
+	#float1 {
+    	position: absolute;
+    	left: 36px;
+    	margin-top: 300px;
+    	width: 84%;
+	}
+	#float2 {
+    	margin-top: 250px;
+    	margin-right: 20px;
+    	width: 84%;
+    	margin-bottom: 30px;
+	}
+	#float2 .f2{
+    	font-size: 18px;
+    	height: 45px;
+    	margin-right: 130px;	
+	}
+
+	#float3 {
+    	margin-top: 260px;
+    	left: 7%;
+    	width: 84%;
+
+	}
+	.titleActivite {
+    	font-size: 40px;
+    	text-align: center;
+    	font-weight: bold;
+	}
+	.textActivity {
+    	font-size: 25px;
+    	text-align: center;
+	}
+	body .btn-bg.bg-2 .btn-2 button {
+    	font-size: 18px;
+    	height: 45px;
+    	left: 0px;
+    	margin-left: 92px;	
+	}
+}
+
+
+@media screen and (max-width: 400px){
+
+	/*  topNumber */
+	.numberCall {
+    	padding-left: 3%;
+    	font-size: 16px;
+	}
+	
+	/*  __________------- */
+
+	/*  section 2 */
+	.cercleActivity{
+		display: block;
+		width: 90%;
+		margin-left: 4%;
+	}
+	#cercle{
+		height: 370px;
+		width: 100%;
+	}
+	#logo{
+    	width: 100%;
+    	left: 134px;
+	}
+	.userRes img {
+    	width: 40%;
+    	margin-top: 11px;
+    	margin-bottom: 11px;
+	}
+	.userRes {
+    	top: -6px;
+	}
+	/* section 3 quelques mots */
+	.violet2block {
+    float: initial;
+    position: relative;
+    width: 94%;
+    left: 3%;
+	}
+	.violet1block {
+    display: block;
+	}
+
+	.blockText2 {
+    font-size: 18px;
+	}
+	.typeSilver {
+    font-size: 45px;
+    padding-bottom: 10px;
+	}
+	.fewWords {
+    font-size: 27px;
+    padding-bottom: 50px;
+	}
+
+	/*  section 5 avis block */
+
+	.avis .hommeRond {
+    width: 50%;
+    display: block;
+    margin-left: 25%;
+	}
+	.text {
+   	 width: 100%;
+	}
+	.author {
+    	display: block
+    	width: 100%;
+    	text-align: -webkit-center;
+    	left: 0%;
+	}
+	#buttonBoxBis {
+
+    	float: initial;
+    	width: 100%;
+    	margin-left: 18%;
+	}
+	.citation2 {
+	    width: 93%;
+	    color: #df9454;
+	    margin-left: 7%;
+	    font-size: 20px;
+	}
+
+	/*  section 6 newsletter */
+	.subscribe {
+        margin-left: 5%;
+        width: 380px;
+	}
+    button {
+        right: 36px;
+    }
+
+
+	/*  section 7 footer */
+
+	.blockFooter {
+    display: inline-block;
+    margin-left: 10%;
+
+	}
+	.blog {
+    	font-size: 10px;
+    	padding-top: 4%
+	}
+	.footerSilver {
+    	font-size: 15px;
+	}	
+	.tel {
+    	font-size: 10px;
+	} 
+	.blockRight {
+    font-size: 10px;
+	}
+	/*_____--------_______-------________-------_________-------____*/
+
+	/*--------------------- PAGE ACTIVITES -------------------------*/
+
+	/*_____--------_______-------________-------_________-------____*/
+	
+	 .imgPosition1 .imgAct{
+		display: none;
+	}
+	.imgPosition2 .imgAct{
+		display: none;
+	}
+	.imgPosition3 .imgAct{
+		display: none;
+	}
+
+
+	.imgPosition1 .imgActResp{
+  		display: block;
+	}
+	.imgPosition2 .imgActResp{
+  		display: block;
+	}
+	.imgPosition3 .imgActResp{
+  		display: block;
+	}
+	
+
+	.act1{
+		 height: 560px;
+	}
+	.act3{
+		 height: 550px;
+
+	}
+
+	#float1 {
+    	position: absolute;
+    	left: 19px;
+    	margin-top: 245px;
+    	width: 89%;
+	}
+	#float2 {
+    	margin-top: 220px;
+    	margin-right: 3px;
+    	width: 89%;
+    	margin-bottom: 30px;
+	}
+	#float2 .f2{
+    	font-size: 18px;
+    	height: 45px;
+    	margin-right: 130px;	
+	}
+
+	#float3 {
+    	margin-top: 220px;
+    	left: 5%;
+    	width: 89%;
+
+	}
+	.titleActivite {
+    	font-size: 35px;
+    	text-align: center;
+    	font-weight: bold;
+	}
+	.textActivity {
+    	font-size: 20px;
+    	text-align: center;
+	}
+	body .btn-bg.bg-2 .btn-2 button {
+    	font-size: 16px;
+    	height: 45px;
+    	left: 0px;
+    	margin-left: 108px;
+    	width: 40%;	
+	}
+
+ 
+}

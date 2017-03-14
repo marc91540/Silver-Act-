@@ -1,0 +1,19 @@
+{
+  "name": "SilverAct",
+  "version": "2.0.0",
+  "description": "Project SilverAct",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "P'unk Avenue",
+  "license": "MIT",
+  "dependencies": {
+    "apostrophe": "^2.0.0"
+  }
+}
+

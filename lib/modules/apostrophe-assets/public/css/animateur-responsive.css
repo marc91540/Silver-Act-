@@ -1,0 +1,241 @@
+@media screen and (max-width: 1177px){
+     
+   .star {
+    margin-bottom: 10px;
+    }
+
+}
+	
+@media screen and (max-width: 1068px){
+  .head {
+    float: left;
+    margin-left: -15%;
+    width: 30%;
+    height: auto;
+    margin-top: 0px;
+    position: relative;
+
+    }
+    #head1{
+      top: 17px;  
+    }
+     #head2{
+        top: 18px;
+    }
+     #head3{
+        top: 7px;
+    }
+     #head4{
+        top: 7px;
+    }
+    #animateur p {
+    font-size: 21px;
+    }
+    #animateur .metier {
+    font-size: 19px;
+    }
+    
+  
+
+}
+
+
+@media screen and (max-width: 845px){
+    #animateur .tittle {
+    font-size: 24px;
+    }
+    #animateur .metier {
+    font-size: 16px;
+    }
+    #animateur p {
+    font-size: 17px;
+    }
+    .star {
+    margin-left: 170px;
+    }
+    
+    #animateur .tittle {
+        margin: 4% 0% 0% 2%;
+    }
+    .head {
+    width: 40%;
+    }
+    #head2, #head1, #head3, #head4 {
+    top: 0px;
+    right: 41px;
+    }
+    .star {
+    margin-left: 9px; 
+    }
+    
+}
+
+@media screen and (max-width: 813px){
+
+} 
+
+
+@media screen and (max-width: 768px) {
+    #animateur span {
+    float: initial;
+    display: block;
+    width: 100%;
+    padding-top: 30px;
+    margin: 8% 0% 5% 0%;
+    }
+    .head {
+    margin-left: 0%;
+    width: 30%;
+    height: auto;
+    margin-top: 0px;
+    position: initial;
+    padding-left: 240px;
+
+    }
+    #animateur .metier {
+    font-family: 'Avenir Next';
+    font-size: 19px;
+    margin-top: 65px;
+    display: inline-block;
+    margin-top: 45px;
+    margin-left: 263px;
+    }
+    #animateur .tittle {
+    margin: 4% 0% 0% 2%;
+    display: inline-block;
+    position: relative;
+    top: 220px;
+    right: 217px;
+    }
+    #animateur p {
+    margin: 6% 0% 0% 13%;
+    width: 70%;   
+    text-align: -webkit-center;
+    }
+    .star {
+        position: relative;
+        top: -130px;
+        left: 36%;
+    }
+    #animateur #move{
+         margin-left: 303px;
+    }
+    #animateur #moveLucas{
+        margin: 4% 0% 0% 4%;
+    }
+}
+
+@media screen and (max-width: 600px){
+  .head {
+    padding-left: 202px;
+    }
+    #animateur .tittle {
+        top: 170px;
+        right: 190px;
+    }
+    #animateur .metier {
+        margin-left: 213px;
+    }
+    #animateur #move {
+        margin-left: 233px;
+    }
+    #moveStar{
+        top: -150px;
+        left: 35%;
+    }
+    #animateur {
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width: 480px){
+   .head {
+        padding-left: 160px;
+    }
+    #animateur .tittle {
+        top: 0px;
+        right: -131px;
+    }
+    #animateur .metier {
+        margin-left: 148px;
+        margin-top: 9px;
+    }
+    .star {
+        position: relative;
+        top: -157px;
+        left: 32%;
+    }
+    #animateur p {
+    margin: 9% 0% 0% 9%;
+    width: 81%;
+    }
+    #animateur  #move {
+        margin-left: 173px;
+    }
+    #moveStar {
+        top: -160px;
+        left: 32%;
+    }
+    #moveStar2 {
+        top: -142px;
+        left: 32%;
+    }
+    #animateur #moveLucas {
+        top: 130px;
+        right: 159px;
+    }
+    #animateur  #metierMove{
+        margin-top: 36px;
+    }
+     
+}
+
+
+@media screen and (max-width: 400px){
+    .head {
+    padding-left: 128px;
+    }
+    #animateur {
+    margin-top: 70px;
+    }
+    #animateur .tittle {
+        top: 0px;
+        right: -92px;
+    }
+    #animateur .metier {
+    margin-left: 109px;
+    margin-top: 9px;
+    }
+    .star {
+    position: relative;
+    top: -153px;
+    left: 28%;
+    } 
+    #animateur p {
+    margin: 9% 0% 0% 2%;
+    width: 91%;
+    }
+    #animateur #move {
+    margin-left: 132px;
+    }
+    #moveStar2 {
+    top: -134px;
+    left: 27%;
+    }
+    #animateur #moveLucas {
+    top: -10px;
+    right: -108px;
+    }
+    #animateur #metierMove {
+    margin-top: 0px;
+    }
+    #moveStar {
+    top: -154px;
+    left: 28%;
+    }
+
+
+
+
+
+}

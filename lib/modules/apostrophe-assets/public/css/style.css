@@ -1,0 +1,343 @@
+*{margin: 0; padding: 0;}
+
+html,body    {
+        font-family: 'Lora', serif;
+        background-color: #fff;
+        display:none;
+        position: relative;
+        }
+
+header  {
+        margin:0;
+        padding:0;
+        position: fixed;
+        top:-120px;
+        height:120px;
+        width:100%;
+        background: url(../images/logo-diordrink-header.png) 200px 28px no-repeat;
+        background-color:rgba(255,255,255,0.8);
+        border-bottom:1px solid #000;
+        z-index:20;
+        }
+
+
+nav     {
+        position:absolute;
+        height:120px;
+        width: 250px;
+        top:64px;
+        right: 550px;
+        }
+
+
+nav .nav-menu {list-style: none;
+        }
+
+nav .nav-menu li{
+        display:inline-block;
+        margin-left:37px;
+        }
+
+a{
+        text-decoration: none;
+        font-size: 15px;
+        color:#000;
+        }
+
+a:hover {color:#be5172;}
+
+.rs     {
+        position:absolute;
+        height:120px;
+        width: 250px;
+        top:53px;
+        right: 158px;
+        }
+
+.rs #facebook{
+        width:40px; 
+        height:39px;
+        margin-right: 35px;
+        background-image: url(../images/facebook.png);
+        float: left;
+        transition:all 0.2s ease;
+        }
+
+.rs #googleplus{
+        width:40px; 
+        height:39px; 
+        margin-right: 35px;
+        background-image: url(../images/googleplus.png);
+        float: left;
+        transition:all 0.2s ease;
+        }
+
+.rs #instagram{
+        width:40px; 
+        height:39px;
+        margin-right: 35px;
+        background-image: url(../images/instagram.png);
+        float: left;
+        transition:all 0.2s ease;
+        }
+
+.rs #facebook:hover{
+        background-image: url(../images/facebook-hover.png);
+        }
+
+.rs #googleplus:hover{
+        background-image: url(../images/googleplus-hover.png);
+        }
+
+.rs #instagram:hover{
+        background-image: url(../images/instagram-hover.png);
+        }
+
+#onglet {
+        height:38px;
+        width:41px;
+        background-color:#000;
+        position:absolute;
+        top:120px;
+        right:207px;
+        padding-top:17px;
+        padding-left:14px;
+        }   
+
+#section1,#section2,#section3 {height:1200px; }
+
+#section1       {
+                background: url(../images/background-home.jpg)no-repeat center 0 fixed;
+                position: relative;
+                } /* fixed; */
+
+#slide_inside1{
+                height:900px;
+                width: 600px;
+                position: absolute;
+                right:-500px; /* right:325px; */
+                top:340px;
+                opacity:0;
+                }
+
+#slide_inside1>h2{
+                font-size:35px;
+                font-style: normal;
+                font-family: 'Lobster', cursive;
+                font-weight: lighter;
+                text-align: center;
+                margin-top: 40px;
+                }
+
+#slide_inside1>p{
+                font-size:16px;
+                font-style: normal;
+                font-weight: lighter;
+                text-align: center;
+                width:600px;
+                color:#343434;
+                }
+
+#la-grande-epicerie{
+                margin-left:50px;
+                height:150px;
+                width:500px;
+                position: absolute;
+                right:200px; /* right:-500px; */
+                top:205px;
+                opacity:0;
+                }
+
+#logo-lagrandeepicerie{
+                width:189px;
+                height:68px;
+                margin-left:150px;
+                margin-top:15px;
+                position: relative;
+                background-image: url(../images/logo-grande-epicerie.jpg);
+                background-repeat: no-repeat;
+                }
+
+#la-grande-epicerie>p{
+                font-size:15px;
+                font-style: normal;
+                font-weight:normal;
+                color:#be5172;
+                text-align: center;
+                }
+
+#produit-boissons{
+                
+                height:331px;
+                width: 428px;
+                position: absolute;
+                background-image: url(../images/produits-boissons.png);
+                background-repeat: no-repeat;
+                right:275px; /* right:400px; */
+                top:500px;
+                opacity:0;
+                }
+
+.rose{font-weight: bold; color:#be5172;}
+
+.vert{font-weight: bold; color:#99ae1d;}
+
+#section2       {background: url(../images/background-miss.jpg)no-repeat center 0 fixed;
+                position: relative;
+                }
+
+#section2>#petale2-flou{position: absolute; top:1100px; left:130px; z-index:10;}
+#section2>#petale4-flou{position: absolute; top:2350px; right:170px; z-index:10;}
+#section2>#petale5-flou{position: absolute; top:700px; right:500px; z-index:10;}
+#section2>#petale6-flou{position: absolute; top:1350px; left:200px; z-index:10;}
+
+#section2>#petale1-nette{position: absolute; top:1650px; left:520px; z-index:10;}
+#section2>#petale3-nette{position: absolute; top:2350px; right:150px; z-index:10;}
+
+
+#slide_inside2{
+                height:900px;
+                width: 600px;
+                position: absolute;
+                right:150px; /* right:325px; */
+                top:600px;
+                }
+
+#slide_inside2>h2{
+                font-family: 'Lobster', cursive;
+                font-size:35px;
+                font-style: normal;
+                font-weight: lighter;
+                text-align: center;
+                margin-top: 40px;
+                }
+
+#slide_inside2>p{
+                font-size:16px;
+                font-style: normal;
+                font-weight: lighter;
+                text-align: center;
+                margin-top:10px;
+                margin-left:50px;
+                width:500px;
+                color:#343434;
+                }
+
+#missdior       {
+                height:83px;
+                width:420px;
+                background-image: url(../images/missdior.png);
+                background-repeat: no-repeat;
+                position: relative;
+                left:150px;
+                top:195px;
+                }
+
+#produit-missdior{
+                position: relative;
+                height: 490px;
+                width:242px;
+                background-image: url(../images/boisson-missdior.png);
+                background-repeat: no-repeat;
+                left:250px;
+                top:270px;
+                }
+
+#section3{      background: url(../images/background-men.jpg)no-repeat center 0 fixed;
+                position: relative;
+                }
+
+#slide_inside3{
+                height:500px;
+                width: 500px;
+                position: absolute;
+                left:250px;
+                top:600px;
+
+                }
+
+#slide_inside3>h2{
+                font-family: 'Lobster', cursive;
+                font-size:35px;
+                font-style: normal;
+                font-weight: lighter;
+                text-align: center;
+                margin-top: 40px;
+                }
+
+#slide_inside3>p{
+                font-size:16px;
+                font-style: normal;
+                font-weight: lighter;
+                text-align: center;
+                margin-top:10px;
+                margin-left:0px;
+                width:500px;
+                color:#343434;
+                }
+
+#eausauvage     {
+                height:116px;
+                width:314px;
+                background-image: url(../images/logo-eausauvage.png);
+                background-repeat: no-repeat;
+                position: absolute;
+                top:175px;
+                right: 220px;
+                }
+
+
+#produit-eausauvage{
+                position: absolute;
+                height: 464px;
+                width:231px;
+                background-image: url(../images/boisson-eausauvage.png);
+                background-repeat: no-repeat;
+                right:250px;
+                top:350px;
+                }
+
+#retour         {
+                padding-top: 50px;
+                padding-left:30px;
+                margin:0 auto;
+                position:relative;
+                height:10px;
+                width:72px;
+                background-image: url(../images/retour.png);
+                background-position: center;
+                background-repeat: no-repeat;
+                top: 770px;
+                }
+
+#retour:hover   {
+                background-image: url(../images/retour-hover.png);
+                }
+
+#retour:hover a{color:grey; text-decoration: underline;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

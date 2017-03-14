@@ -1,0 +1,185 @@
+
+#firstblock{
+
+  background-color:#fff;
+  height:22em;
+  width:100%;
+  
+}
+#firstblock .photo{
+  position:absolute;
+  margin-left:76%;
+
+
+}
+
+#firstblock p.Name{
+  color:#111;
+  font-size:30px;
+  margin-left:45%;
+  margin-top:6%;
+  font-weight:bolder;
+}
+#firstblock p.hobbie{
+   margin-left:49%;
+   font-size:30px;
+}
+
+#firstblock p.feel{
+   margin-left:53%;
+   font-size:23px
+}
+
+#firstblock p.passioné{
+  font-weight:bolder;
+  font-size:21px;
+  margin-left:61px;
+
+}
+
+ #hobbies ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #fff;
+    margin-left:42px;
+ 
+}
+
+#hobbies li {
+    float: left;
+}
+
+#hobbies li a {
+    display: block;
+    color: #111;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    border:3px solid #fff;
+    border-radius: 4px;
+    margin-left:20px;
+    font-weight: bolder;
+    
+}
+
+#bluecase{
+  background-color:#3783a8;
+  margin-top:-33px;
+  height:53px;
+  width:537px;
+  float:right;
+  border-top-left-radius:7px;
+  border-bottom-left-radius:7px;
+
+}
+#bluecase .rendez-vous{
+  color:#fff;
+  text-align:right;
+  font-size:26px;
+  margin-right:50px;
+  margin-top:10px;
+}
+
+.container {
+   align-items:center;
+   flex-direction:column;
+
+}
+
+.container div{
+  
+    width:100%;
+    height:10em;
+
+}
+.un{
+  background:#ecc54f;
+
+}
+.deux{
+  background:#df9454;
+  margin-top:20px;
+  
+
+}
+.trois {
+  background:#9f71aa;
+   margin-top:20px;
+  
+}
+.quatre{
+   background:#ecc54f;
+   margin-top:20px;
+}
+
+p.activity{
+  position:relative  ;
+  color:#fff;
+  top:35%;
+  font-size:25px;
+  font-weight:bolder;
+  margin-left:60px;
+}
+p.Host{
+  position:relative;
+  top:26%;
+  color:#fff;
+  margin-left:60px;
+
+}
+p.place{
+  margin-top:-45px;
+  color:#fff;
+  margin-left:30%;
+  border-left:1px solid #fff;
+  padding:35px;
+
+}
+
+p.date{
+  position:relative;
+  text-align:center;
+  margin-top:-7%;
+  color:#fff;
+  font-weight: bolder;
+  font-size:27px;
+  margin-left:20%;
+  
+}
+p.contact{
+  position:relative;
+  text-align:right;
+  color:#fff;
+  font-size:16px;
+  padding:10px;
+  text-decoration: none;
+   margin-top:-7%;
+   margin-right:10%;
+   margin-left:90%;
+   border:4px solid #fff;
+   padding:0.5% 6.2% 0.5% 2%;
+   border-radius:5px;
+
+
+
+}
+p.undo{
+  position:relative;
+  text-align:right;
+  color:#fff;
+  font-size:16px;
+  text-decoration: none;
+  margin-right:10%;
+  margin-left:90%;
+  margin-top:0%;
+  border:4px solid #fff;
+  padding:0.5% 6.2% 0.5% 2%;
+  border-radius:5px;
+
+
+
+}
+
+
